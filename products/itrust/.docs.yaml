@@ -1,0 +1,65 @@
+# Machine-managed by Mortgage Work — do not edit by hand.
+# Maps every source document to its doc_id (xxh64 content hash,
+# same algorithm as kg-service) so agents can resolve doc_id → file.
+schema: 1
+docs:
+- file: CRA 02.17.26.pdf
+  doc_id: c7e5137b559ace7c
+  size: 83088
+  mtime: 1785313335
+- file: DSCR 10.22.24.pdf
+  doc_id: ef73ecbb4dff95b4
+  size: 140922
+  mtime: 1785313335
+- file: DSCR Plus 12.12.25.pdf
+  doc_id: 07919e8823d8024a
+  size: 154108
+  mtime: 1785313335
+- file: EZ CES 2nd 11.18.25.pdf
+  doc_id: 99afcb822ac39101
+  size: 130889
+  mtime: 1785313335
+- file: Easy Plus 10.06.25.pdf
+  doc_id: 5ac99bb259bd9fe3
+  size: 148708
+  mtime: 1785313335
+- file: Fast & Easy 10.22.25.pdf
+  doc_id: 797a5e3dbbfacab3
+  size: 113118
+  mtime: 1785313335
+- file: Foreign National DSCR 04.27.26.pdf
+  doc_id: 6e3e58b913699e1e
+  size: 147124
+  mtime: 1785313335
+- file: HELOC 03.09.26.pdf
+  doc_id: bf4fd7e048db5858
+  size: 110048
+  mtime: 1785313335
+- file: P & L 2nd 04.15.26.pdf
+  doc_id: 1bfb01548d218b7b
+  size: 138043
+  mtime: 1785313335
+- file: Portfolio 02.17.26.pdf
+  doc_id: 36dcfe57ae088aab
+  size: 101409
+  mtime: 1785313335
+- file: Premium Easy Doc 10.22.24.pdf
+  doc_id: 3a4ad133e8d79888
+  size: 120349
+  mtime: 1785313335
+- file: Special Alt Doc 04.27.26.pdf
+  doc_id: f324bdc7939e2f6d
+  size: 155532
+  mtime: 1785313335
+- file: iCES (iTrust Closed End Second) 10.22.24.pdf
+  doc_id: 5c2fe1e3ab1e6707
+  size: 121594
+  mtime: 1785313335
+- file: iDSCR 12.01.25.pdf
+  doc_id: f82434add03f4ec6
+  size: 97541
+  mtime: 1785313335
+- file: iMix DSCR 10.22.24.pdf
+  doc_id: ddf61b752c26fab2
+  size: 106557
+  mtime: 1785313335

@@ -1,0 +1,12 @@
+# Machine-managed by Mortgage Work — do not edit by hand.
+schema: 1
+name: Tom Becker
+purpose: purchase
+amount: 495000
+stage: closed
+city: Austin, TX
+borrowers:
+  - name: Tom Becker
+    citizenship: us_citizen
+created: 2026-04-08
+closed: 2026-06-30
