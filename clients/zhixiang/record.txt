@@ -1,0 +1,41 @@
+Here is the English version of the mock conversation between a loan officer and a borrower, in plain text format.
+
+Borrower: Hi, I'm Zhang Wei. I submitted a mortgage pre-qualification application online last week. I'd like to discuss it further today.
+
+Loan Officer: Hello Mr. Zhang, I'm Mike, your loan officer. Glad to talk with you. I see your application. You're looking at a $400,000 primary residence, correct?
+
+Borrower: Yes, that's right. My wife and I found a house listed at $395,000, and we want to move forward quickly.
+
+Loan Officer: Understood. Let me confirm your financial situation first. Your annual income is about 85,000, and your wife's is 62,000, correct? Do you have any credit card debt or student loans?
+
+Borrower: Yes, the income is accurate. We pay off our credit cards in full every month, no balance. Student loans have about 18,000 left, with a monthly payment of 350.
+
+Loan Officer: Great, your debt-to-income ratio looks good. What are your credit scores? I see yours is 740 and your wife's is 720, is that right?
+
+Borrower: Yes, we've been careful about paying on time. Can we get a good rate with these scores?
+
+Loan Officer: Absolutely. Anything above 720 is considered excellent credit. Right now, the 30-year fixed rate is around 6.75% to 7%, depending on your down payment. How much are you planning to put down?
+
+Borrower: We have $80,000 saved up, which is 20%. That means we can avoid PMI, right?
+
+Loan Officer: Correct. With 20% down, you won't need private mortgage insurance, which saves you about 100 to 200 per month. However, after factoring in closing costs, do you still have enough reserves?
+
+Borrower: How much are closing costs? We have about $20,000 in additional savings.
+
+Loan Officer: Typically, closing costs run about 3% to 5% of the purchase price, so roughly 12,000 to 20,000. So $20,000 should be enough, but it'll be tight. I recommend keeping at least three months of living expenses as an emergency fund.
+
+Borrower: Got it. What documents do we need to provide next?
+
+Loan Officer: I'll send you a checklist. Mainly, we'll need your last two pay stubs, two years of W-2s, two months of bank statements, and a copy of your driver's license. If your wife is self-employed, we'll also need her profit and loss statement.
+
+Borrower: Okay, I have all those in digital form. How long will the approval take?
+
+Loan Officer: If everything is complete, usually 30 to 45 days. But it's peak season, so it might be a bit slower. I recommend getting a pre-approval letter first, so sellers will take your offer seriously.
+
+Borrower: Great, thank you for your help. One more thing, can we lock in the interest rate?
+
+Loan Officer: Yes, we can. The market is volatile right now. I suggest locking the rate as soon as you sign the purchase contract, typically for 30 or 45 days. If rates drop later, we can discuss a float-down option, but there may be a cost.
+
+Borrower: Alright, I'll discuss this with my wife and send you the documents as soon as possible. Thanks, Mike!
+
+Loan Officer: You're welcome, Mr. Zhang. Feel free to reach out anytime. Good luck with your home purchase!
