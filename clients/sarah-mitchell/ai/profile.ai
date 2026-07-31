@@ -1,0 +1,45 @@
+# Sarah Mitchell — clerk
+
+> Maintained by clerk · as of 441f137 · 2026-07-31
+> Verifiable facts with sources. Judgement and strategy live in PROFILE.md.
+
+## Loan
+purpose: purchase @ clients/sarah-mitchell/client.yaml
+loan amount: 680000 @ clients/sarah-mitchell/client.yaml
+stage: docs @ clients/sarah-mitchell/client.yaml
+location: Irvine, CA @ clients/sarah-mitchell/client.yaml
+occupancy: unknown — no mention in available documents
+target program: unknown — no mention in available documents
+
+## Borrowers
+Sarah Mitchell · borrower · us_citizen · unknown employment type @ clients/sarah-mitchell/client.yaml
+David Mitchell · borrower · us_citizen · unknown employment type @ clients/sarah-mitchell/client.yaml
+
+## Income
+qualifying income: unknown — income documents failed to load
+front-end DTI: unknown — no calculations performed
+back-end DTI: unknown — no calculations performed
+income evidence: paystubs, W2 @ clients/sarah-mitchell/income/w2-2025.pdf, paystub-2026-06.pdf, paystub-2026-07.pdf
+
+## Credit
+FICO: unknown — failed to load the credit report
+date pulled: unknown — failed to load the credit report
+
+## Property
+type: unknown — no property type document on file
+purchase price: unknown — no purchase agreement document on file
+appraisal status: unknown — no appraisal document on file
+
+## Documents on file
+assets: boa-statement-jun.pdf, boa-statement-jul.pdf
+credit: credit-report.pdf
+income: paystub-2026-06.pdf, paystub-2026-07.pdf, w2-2025.pdf
+notes: call-transcript-0715.txt
+
+## Open items
+- Provide April and May bank statements @ clients/sarah-mitchell/notes/call-transcript-0715.txt
+- Submit the bill of sale for the car and a note for the LOE @ clients/sarah-mitchell/notes/call-transcript-0715.txt
+- Load balance June's $18k deposit explanation with proper documentation @ clients/sarah-mitchell/notes/call-transcript-0715.txt
+
+## Context
+2026-07-15: Sarah Mitchell confirmed she has uploaded June and July statements and will upload April and May soon. She also mentioned that the $18,000 deposit on June 14th was from selling her old car and has a bill of sale. She will provide a copy of the bill of sale and a short note to cover the LOE.
