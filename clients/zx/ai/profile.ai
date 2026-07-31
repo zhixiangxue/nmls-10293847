@@ -1,0 +1,31 @@
+# zx — clerk
+
+> Maintained by clerk · as of d19060d · 2026-07-31
+> Verifiable facts with sources. Judgement and strategy live in PROFILE.md.
+
+## Loan
+purpose: purchase, loan amount: $750,000, stage: lead, location: unknown — no location data available, occupancy: unknown — no occupancy data available, target program: unknown — no specific loan program mentioned in the files
+
+## Borrowers
+zx · borrower · foreign_national · unknown — no employment type information available
+
+## Income
+unknown — income details and supporting documents such as paystubs, W-2s, or bank statements are missing; unknown — no front-end DTI calculation available; unknown — no back-end DTI calculation available; unknown — no income evidence currently on file
+
+## Credit
+unknown — credit report has not been pulled yet
+
+## Property
+type: unknown — no property information available, purchase price: unknown — no purchase contract on file, appraisal status: unknown — no appraisal information available
+
+## Documents on file
+assets: .gitkeep
+credit: .gitkeep
+income: .gitkeep
+za: 111.md
+
+## Open items
+Income documents (paystubs, W-2s or bank statements), credit pull.
+
+## Context
+07/31 — file opened; new lead, no documents on file yet.
