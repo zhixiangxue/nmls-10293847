@@ -1,0 +1,44 @@
+# Robert Alvarez — clerk
+
+> Maintained by clerk · as of 441f137 · 2026-07-31
+> Verifiable facts with sources. Judgement and strategy live in PROFILE.md.
+
+## Loan
+purpose: refinance @ clients/robert-alvarez/client.yaml
+loan amount: $412,000 @ clients/robert-alvarez/client.yaml
+stage: docs @ clients/robert-alvarez/client.yaml
+location: Phoenix, AZ @ clients/robert-alvarez/client.yaml
+occupancy: unknown — not specified in available documents
+target program: unknown — not specified in available documents
+
+## Borrowers
+Robert Alvarez · borrower · US citizen · unknown employment type @ clients/robert-alvarez/client.yaml
+
+## Income
+qualifying income: unknown — income documentation not on file
+front-end DTI: unknown — not specified in available documents
+back-end DTI: unknown — not specified in available documents
+income evidence: none on file @ clients/robert-alvarez/income
+
+## Credit
+FICO: unknown — placeholder credit report used @ clients/robert-alvarez/credit/credit-report.pdf
+credit report date: unknown — placeholder credit report used
+
+## Property
+type: unknown — not specified in available documents
+purchase price: unknown — not specified in available documents
+appraisal status: unknown — not specified in available documents
+
+## Documents on file
+clients/robert-alvarez/credit: credit-report.pdf
+clients/robert-alvarez/income: .gitkeep
+
+## Open items
+- Determine and document the occupancy status.
+- Identify and select a target loan program.
+- Verify employment type and collect income documentation.
+- Obtain actual credit report for accurate FICO score and report date.
+- Assess property details such as type, purchase price, and appraisal status.
+
+## Context
+None noted.
