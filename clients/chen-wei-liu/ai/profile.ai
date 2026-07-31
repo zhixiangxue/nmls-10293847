@@ -1,0 +1,51 @@
+# Chen Wei Liu — clerk
+
+> Maintained by clerk · as of 1b0755d · 2026-07-31
+> Verifiable facts with sources. Judgement and strategy live in PROFILE.md.
+
+## Loan
+purpose: purchase — `client.yaml`
+loan amount: $312,000 — `client.yaml`
+LTV: 60.0% ($312,000 / $520,000) — `notes/intake-call-0721.txt`, `client.yaml`
+stage: active — `client.yaml`
+location: 4417 Palm Grove Avenue, Riverside, CA 92501 — `notes/intake-call-0721.txt`
+occupancy: investment — `products/itrust/Foreign National DSCR 04.27.26.pdf` (Investment Only); borrower asked about primary residence treatment per `notes/intake-call-0721.txt` but program does not allow it
+target program: iTrust Foreign National DSCR — `products/itrust/Foreign National DSCR 04.27.26.pdf`
+
+## Borrowers
+Chen Wei Liu · borrower · foreign_national (China) · employment type: unknown — no employment information in any document on file
+
+## Income
+qualifying income: DSCR-based (no borrower income used) — `products/itrust/Foreign National DSCR 04.27.26.pdf`
+market rent: $3,400/mo — Form 1007, `property/rent-schedule.pdf`
+proposed PITIA: $2,720/mo — `PROFILE.md` (officer-calculated figure; not independently sourced from a document on file)
+DSCR: 1.25 ($3,400 / $2,720) — computed from market rent and PITIA above
+income evidence: Form 1007 Single-Family Comparable Rent Schedule dated 2026-07-24, appraiser Karen Doyle — `property/rent-schedule.pdf`
+
+## Credit
+FICO: none — no US credit file — `notes/intake-call-0721.txt`
+credit report: not required for Foreign National — `products/itrust/Foreign National DSCR 04.27.26.pdf`
+
+## Property
+type: SFR — `property/rent-schedule.pdf` (Form 1007 is single-family)
+purchase price: $520,000 — `notes/intake-call-0721.txt`
+appraisal status: unknown — not yet ordered/documented on file
+
+## Documents on file
+notes/: intake-call-0721.txt
+assets/: hsbc-hk-statement-jun.pdf (HSBC Hong Kong Premier Savings, USD, closing balance $410,000 as of 2026-06-30)
+property/: rent-schedule.pdf (Form 1007, market rent $3,400/mo)
+
+## Open items
+- copy of passport — required by `products/itrust/Foreign National DSCR 04.27.26.pdf`
+- valid Visa / I-94, or evidence of Visa Waiver Program eligibility — required by product guidelines; may not be required if closing remotely or by POA — `products/itrust/Foreign National DSCR 04.27.26.pdf`
+- US bank account for reserves and ACH — reserves must be documented in a US bank account; ACH enrollment form required — `products/itrust/Foreign National DSCR 04.27.26.pdf`
+- ACH enrollment form with US bank routing number, account number, account type — `products/itrust/Foreign National DSCR 04.27.26.pdf`
+- appraisal — not yet on file
+- purchase contract — not yet on file
+- transfer of foreign assets to US institutional bank account prior to closing — `products/itrust/Foreign National DSCR 04.27.26.pdf`
+- housing history on any US properties owned (12 months cancelled checks, bank statements, or credit supplement) — `products/itrust/Foreign National DSCR 04.27.26.pdf`; unknown whether borrower owns any US properties
+
+## Context
+2026-07-21 — Intake call: Borrower resides in Shenzhen, China. He asked whether the Riverside property could be written up as his primary residence since he plans to stay there during US visits. The target program (iTrust Foreign National DSCR) is Investment Only — primary residence treatment is not available. — `notes/intake-call-0721.txt`
+2026-07-21 — Intake call: Borrower banks with HSBC Hong Kong. HSBC statement shows $410,000 USD closing balance as of 2026-06-30, sufficient to cover down payment ($208,000) and reserves (3 months PITIA = $8,160), but reserves must be in a US account per product guidelines. — `notes/intake-call-0721.txt`, `assets/hsbc-hk-statement-jun.pdf`, `products/itrust/Foreign National DSCR 04.27.26.pdf`

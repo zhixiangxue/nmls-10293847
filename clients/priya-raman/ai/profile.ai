@@ -1,0 +1,53 @@
+# Priya Raman — clerk
+
+> Maintained by clerk · as of 1b0755d · 2026-07-31
+> Verifiable facts with sources. Judgement and strategy live in PROFILE.md.
+
+## Loan
+purpose: purchase — client.yaml  
+loan amount: $920,000 — client.yaml  
+stage: active — client.yaml  
+location: San Jose, CA — client.yaml  
+occupancy: primary residence — intake-call-0713.txt  
+target program: unknown — the income analysis uses a 50% expense factor consistent with both iTrust Special Alt Doc (Option 3: Business Bank Statements) and iTrust Easy Plus, but the officer has not named a program; back-end DTI of 52.0% exceeds both programs' base max of 50% DTI (Special Alt Doc caps at 50%; Easy Plus allows 50–55% only at FICO ≥ 700, and Priya's representative FICO is 694)
+
+## Borrowers
+Priya Raman · borrower · US citizen · self-employed — client.yaml; intake-call-0713.txt
+
+## Income
+qualifying income: $20,800/mo — ai/income-analysis.ai  
+front-end DTI: 44.2% ($9,200 PITIA ÷ $20,800) — ai/income-analysis.ai  
+back-end DTI: 52.0% (($9,200 + $1,616) ÷ $20,800) — ai/income-analysis.ai  
+income evidence: 12 months business bank statements (Wells Fargo, Raman Design Studio, 2025-07 through 2026-06), average monthly deposits $41,600 after excluding a $73,000 wire transfer in 2026-05 as a large deposit per program guidelines; expense factor 50%; CPA-prepared P&L for tax year 2025 (gross revenue $526,000, net income $498,000) — ai/income-analysis.ai; income/pl-2025-cpa.pdf; assets/bank-statement-2026-05.pdf; products/itrust/Special Alt Doc 04.27.26.pdf @ pp. 8–9
+
+## Credit
+representative FICO: 694 (Experian 696, Equifax 694, TransUnion 692) — credit/credit-report.pdf  
+pulled: 2026-07-13 — credit/credit-report.pdf  
+other debts: $1,616/mo (auto loan, student loan, credit cards per intake call; exact breakdown not on file) — ai/income-analysis.ai; intake-call-0713.txt
+
+## Property
+type: SFR — PROFILE.md  
+address: 908 Larkspur Lane, San Jose, CA 95126 — PROFILE.md; intake-call-0713.txt  
+purchase price: $1,150,000 — PROFILE.md; intake-call-0713.txt  
+appraisal: unknown — not yet ordered per PROFILE.md; no update on file
+
+## Documents on file
+credit/ — credit-report.pdf, tax-transcript-2025.pdf (image-only PDF, text not extractable)  
+income/ — pl-2025-cpa.pdf (prepared by Anita Deshpande CPA, dated 2026-07-24), pl-2025-draft.pdf (self-prepared, dated 2026-07-16; superseded per call-transcript-0724.txt)  
+assets/ — bank-statement-2025-07.pdf through bank-statement-2026-06.pdf (12 statements, Wells Fargo business checking, Raman Design Studio)  
+notes/ — intake-call-0713.txt, call-transcript-0724.txt  
+ai/ — income-analysis.ai (last run 2026-07-24)
+
+## Open items
+- Appraisal — not yet ordered (PROFILE.md; no subsequent update)
+- Licensed Tax Preparer letter — required by Special Alt Doc Option 3 (confirming 2 years of business tax return filings, business name, ownership percentage); Anita Deshpande CPA prepared the P&L but no separate preparer letter on file
+- Business license or equivalent — required by Special Alt Doc for businesses requiring licensing; not on file
+- Evidence of 2 years continuous self-employment — required by both programs; not on file beyond the 2019 start date stated in intake
+- DTI exceeds program limits — 52.0% back-end vs. 50% max on both plausible programs; Easy Plus 50–55% extension requires FICO ≥ 700 (borrower is at 694)
+- Purchase contract — not on file
+- Assets for down payment ($230,000), closing costs, and reserves — not yet documented; reserves required: 3 months PITIA ($27,600) under Special Alt Doc at ≤ $1M loan amount
+- Tax transcript — file received but content is image-only and not machine-readable; may need to be manually reviewed or replaced with an extractable copy
+
+## Context
+- 2026-07-13: Intake call. Priya estimated her FICO around 712 from a monitoring app; actual tri-merge pull came back at 694. She disclosed auto loan, student loan, and credit card obligations totaling $1,616/mo. She operates Raman Design Studio as a sole proprietorship since 2019. — intake-call-0713.txt
+- 2026-07-24: Call confirming the CPA-prepared P&L (Anita Deshpande, CPA #CPA-04821, dated 07/24/2026) supersedes the self-prepared draft (dated 07/16/2026). The CPA P&L shows gross revenue $526,000 and net income $498,000 versus the draft's $538,000 / $512,000. All 12 bank statements confirmed received. Income analysis refreshed. Priya understands the file is active and moving toward submission. — call-transcript-0724.txt

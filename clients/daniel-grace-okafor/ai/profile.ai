@@ -1,0 +1,58 @@
+# Daniel Okafor — clerk
+
+> Maintained by clerk · as of 1b0755d · 2026-07-31
+> Verifiable facts with sources. Judgement and strategy live in PROFILE.md.
+
+## Loan
+- purpose: purchase — client.yaml, notes/intake-call-0706.txt
+- loan amount: $735,000 — client.yaml, notes/price-negotiation-0722.txt
+- stage: docs — client.yaml
+- location: 1428 Camden Way, Fremont, CA 94536 — property/purchase-contract.pdf
+- occupancy: primary residence — notes/intake-call-0706.txt, property/purchase-contract.pdf
+- target program: unknown — no program selected on file
+
+## Borrowers
+- Daniel Okafor · borrower · US citizen · W-2, Senior Software Engineer at Nexlite Systems — client.yaml, income/daniel-paystub-2026-07.pdf
+- Grace Okafor · co-borrower · permanent resident · W-2, Registered Nurse at Fremont Valley Hospital — client.yaml, income/grace-paystub-2026-07.pdf
+
+## Income
+- qualifying monthly income: $24,000 (Daniel $15,500 + Grace $8,500) — income/daniel-paystub-2026-07.pdf, income/grace-paystub-2026-07.pdf
+- front-end DTI: 24.0% (PITIA $5,760 / $24,000) — PITIA figure from PROFILE.md; source calculation not on disk
+- back-end DTI: 30.0% (PITIA $5,760 + debts $1,440 / $24,000) — debt breakdown ($640 auto, $560 student loan, $240 credit cards) from PROFILE.md; credit report on file is scores-only, no tradeline detail page exists to corroborate
+- income evidence: Daniel 2025 W-2 ($178,400), Grace 2025 W-2 ($98,200), Daniel June 2026 paystub, Daniel July 2026 paystub, Grace July 2026 paystub — income/daniel-w2-2025.pdf, income/grace-w2-2025.pdf, income/daniel-paystub-2026-06.pdf, income/daniel-paystub-2026-07.pdf, income/grace-paystub-2026-07.pdf
+
+## Credit
+- Daniel: representative FICO 768 (Experian 772, Equifax 768, TransUnion 764) — credit/credit-report.pdf
+- Grace: representative FICO 741 (Experian 742, Equifax 741, TransUnion 740) — credit/credit-report.pdf
+- pulled: 2026-07-06, expires 2026-11-03 — credit/credit-report.pdf
+- monthly obligations: $1,440/mo claimed (auto $640 + student loan $560 + credit cards $240) — PROFILE.md; the credit report PDF on disk contains only scores, no tradeline detail
+
+## Property
+- type: SFR — PROFILE.md
+- purchase price: $980,000 — property/purchase-contract.pdf
+- earnest money deposit: $29,400 — property/purchase-contract.pdf
+- contract date: 2026-07-22 — property/purchase-contract.pdf
+- close of escrow: 2026-08-28 — property/purchase-contract.pdf
+- down payment: $245,000 (25%), LTV 75.0% — notes/price-negotiation-0722.txt
+- appraisal: not yet ordered — PROFILE.md
+
+## Documents on file
+- assets/: chase-statement-jun.pdf (June 2026, ending balance $212,480.00), gift-letter.pdf ($60,000 from Emeka Okafor, dated 2026-07-19)
+- credit/: credit-report.pdf (tri-merge, pulled 2026-07-06, scores only)
+- income/: daniel-paystub-2026-06.pdf, daniel-paystub-2026-07.pdf, daniel-w2-2025.pdf, grace-paystub-2026-07.pdf, grace-w2-2025.pdf
+- notes/: intake-call-0706.txt, price-negotiation-0722.txt
+- property/: purchase-contract.pdf
+
+## Open items
+- appraisal — not yet ordered (PROFILE.md)
+- homeowners insurance binder — not yet received (PROFILE.md)
+- Grace June 2026 paystub — missing; only July on file while Daniel has both months
+- credit report tradeline detail — the report on disk is scores-only; monthly debt obligations ($1,440/mo) are stated in PROFILE.md but not corroborated by any PDF on disk
+- target loan program — not yet selected
+- gift fund donor capacity and transfer verification — gift letter received ($60,000 from Emeka Okafor) but no donor bank statement or proof of transfer on file
+
+## Context
+- 2026-07-06: Intake call. Borrowers originally targeting $760,000 loan on $1,005,000 list price. Daniel and Grace have roughly $200K in Chase savings; may receive gift funds from Daniel's family. — notes/intake-call-0706.txt
+- 2026-07-22: Price negotiated to $980,000 (down from $1,005,000). Loan amount drops from $760,000 to $735,000. Down payment $245,000 at 25%, 75.0% LTV. Contract signed, COE targeted late August. — notes/price-negotiation-0722.txt
+- 2026-07-22 (officer's note): Grace's shift differential could improve tier but officer prefers to keep it simple at 75% LTV. — PROFILE.md
+- 2026-07-22 (officer's note): Open question — Fannie Mae documentation requirement for gift funds on primary residence at 75% LTV needs confirmation before clearing underwriting. — PROFILE.md

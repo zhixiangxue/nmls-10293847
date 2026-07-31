@@ -1,0 +1,50 @@
+# Marcus Webb — clerk
+
+> Maintained by clerk · as of 1b0755d · 2026-07-31
+> Verifiable facts with sources. Judgement and strategy live in PROFILE.md.
+
+## Loan
+purpose: cash-out refinance — `clients/marcus-webb/client.yaml`
+loan amount: $480,000 — `clients/marcus-webb/client.yaml`
+stage: lead — `clients/marcus-webb/client.yaml`
+location: Sacramento, CA — `clients/marcus-webb/client.yaml`
+occupancy: primary residence — `clients/marcus-webb/notes/intake-call-0727.txt`
+target program: unknown — no program has been selected yet
+
+## Borrowers
+Marcus Webb · borrower · US citizen — `clients/marcus-webb/client.yaml` · employed at Sierra Freight Logistics, tenure ~6 years (unverified, per borrower) — `clients/marcus-webb/notes/intake-call-0727.txt`
+
+## Income
+qualifying income: unknown — no income documents collected yet
+front-end DTI: unknown — not yet calculated
+back-end DTI: unknown — not yet calculated
+income evidence: none on file
+
+## Credit
+FICO: ~700 per borrower, unverified — `clients/marcus-webb/notes/intake-call-0727.txt`
+credit pulled: not yet pulled
+
+## Property
+type: unknown — no document on file states property type; the intake notes identify the address as 2205 Ridgeline Court, Sacramento, CA 95818 but do not classify the structure — `clients/marcus-webb/notes/intake-call-0727.txt`
+purchase price: N/A — this is a refinance, not a purchase
+estimated value: ~$640,000 per borrower, unverified — `clients/marcus-webb/notes/intake-call-0727.txt`
+current loan balance: $310,000 per borrower, unverified — `clients/marcus-webb/notes/intake-call-0727.txt`
+cash-out requested: $170,000 — `clients/marcus-webb/notes/intake-call-0727.txt`
+appraisal status: not yet ordered
+
+## Documents on file
+notes/: intake-call-0727.txt
+
+## Open items
+- credit report — not yet pulled
+- income documentation — not yet received (paystubs, W-2s, tax returns)
+- employment verification — not yet received
+- bank statements — not yet received
+- appraisal — not yet ordered
+- target loan program — not yet identified
+- DTI — not yet calculated
+- insurance — not yet verified
+- property tax figure — not yet obtained
+
+## Context
+- 2026-07-27: Marcus Webb called in seeking a cash-out refinance on his primary residence at 2205 Ridgeline Court, Sacramento, CA 95818. He stated his current loan balance is $310,000 and he wants $170,000 in cash out, totaling a $480,000 new loan. He estimates his credit score around 700, his home value around $640,000, and says he has been at Sierra Freight Logistics for about six years. None of these figures have been verified. Next steps are to pull credit, collect income and employment documentation, and order an appraisal. — `clients/marcus-webb/notes/intake-call-0727.txt`
