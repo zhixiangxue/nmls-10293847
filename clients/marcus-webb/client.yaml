@@ -1,0 +1,16 @@
+# Machine-managed by Mortgage Work — do not edit by hand.
+# Free-form notes belong in PROFILE.md; this file only holds structured facts.
+schema: 1
+name: Marcus Webb
+purpose: cash-out refinance
+amount: 480000
+stage: lead
+city: Sacramento, CA
+contact:
+  phone: "+1 (916) 555-0147"
+  email: marcus.webb@example.com
+borrowers:
+  - name: Marcus Webb
+    role: borrower
+    citizenship: us_citizen
+created: 2026-07-27
