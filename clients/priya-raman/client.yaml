@@ -1,0 +1,16 @@
+# Machine-managed by Mortgage Work — do not edit by hand.
+# Free-form notes belong in PROFILE.md; this file only holds structured facts.
+schema: 1
+name: Priya Raman
+purpose: purchase
+amount: 920000
+stage: lead
+city: San Jose, CA
+contact:
+  phone: "+1 (408) 555-0219"
+  email: priya.raman@example.com
+borrowers:
+  - name: Priya Raman
+    role: borrower
+    citizenship: us_citizen
+created: 2026-07-13
