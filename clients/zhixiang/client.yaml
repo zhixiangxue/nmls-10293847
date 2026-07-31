@@ -4,7 +4,7 @@ schema: 1
 name: zhixiang
 purpose: purchase
 stage: lead
-amount: 1000000
+amount: 750000
 contact:
   phone: '18010293847'
   email: x@gmail.com
