@@ -1,0 +1,15 @@
+# Machine-managed by Mortgage Work — do not edit by hand.
+# Free-form notes belong in PROFILE.md; this file only holds structured facts.
+schema: 1
+name: zhixiang.xue
+purpose: purchase
+stage: lead
+amount: 750000
+contact:
+  phone: '15610293847'
+  email: x@gmail.com
+borrowers:
+- name: zhixiang.xue
+  role: borrower
+  citizenship: foreign_national
+created: 2026-07-31
