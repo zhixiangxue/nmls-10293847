@@ -1,0 +1,45 @@
+# zhixiang — clerk
+
+> Maintained by clerk · as of 1bbf5d9 · 2026-07-31
+> Verifiable facts with sources. Judgement and strategy live in PROFILE.md.
+
+## Loan
+purpose: purchase @ clients/zhixiang/client.yaml
+loan amount: $1,000,000 @ clients/zhixiang/client.yaml
+stage: lead @ clients/zhixiang/client.yaml
+location: unknown — not specified in available documents
+occupancy: unknown — not specified in available documents
+target program: unknown — not specified in available documents
+
+## Borrowers
+zhixiang · role: borrower · citizenship: foreign_national · employment type: unknown @ clients/zhixiang/client.yaml
+
+## Income
+qualifying income: unknown — no income documentation provided
+front-end DTI: unknown — no DTI information provided
+back-end DTI: unknown — no DTI information provided
+income evidence: none provided
+
+## Credit
+FICO: unknown — no credit report found in available documents
+credit report date: unknown — no credit report found in available documents
+
+## Property
+type: unknown — no property details in available documents
+purchase price: unknown — no purchase agreement found
+appraisal status: unknown — no appraisal documentation found
+
+## Documents on file
+assets: .gitkeep
+credit: .gitkeep
+income: .gitkeep
+
+## Open items
+- Employment type documentation
+- Income documentation
+- Credit report
+- Property details and purchase agreement
+- Target loan program specification
+
+## Context
+None provided so far.
