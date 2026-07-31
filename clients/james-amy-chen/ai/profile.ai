@@ -1,0 +1,42 @@
+# James & Amy Chen — clerk
+
+> Maintained by clerk · as of 441f137 · 2026-07-31
+> Verifiable facts with sources. Judgement and strategy live in PROFILE.md.
+
+## Loan
+purpose: unknown — no document specifies this
+loan amount: unknown — no document specifies this
+stage: unknown — no document specifies this
+location: unknown — no document specifies this
+occupancy: unknown — no document specifies this
+target program: unknown — no document specifies this
+
+## Borrowers
+James Chen · unknown · unknown · unknown
+Amy Chen · unknown · unknown · unknown
+
+## Income
+qualifying income: unknown — no document specifies this
+front-end DTI: unknown — no document specifies this
+back-end DTI: unknown — no document specifies this
+income evidence: W-2 - Amy Chen - 2025, W-2 - James Chen - 2025 @ clients/james-amy-chen/income/, pre-approval-letter.pdf, urla-1003-draft.pdf
+
+## Credit
+unknown — credit details were deleted and no credit information is present in current documents
+
+## Property
+type: unknown — no document specifies this
+purchase price: unknown — no document specifies this
+appraisal status: unknown — no document specifies this
+
+## Documents on file
+ai/: pre-approval-letter.pdf, urla-1003-draft.pdf
+assets/: .gitkeep
+credit/: .gitkeep, 1.md, ic_assistant_avatar_seat.png, Portfolio 02.17.26.pdf, Premium Easy Doc 10.22.24.pdf, Special Alt Doc 04.27.26.pdf, w2-amy-2025-2.pdf, w2-amy-2025.pdf
+income/: 1.md, w2-amy-2025.pdf, w2-james-2025.pdf
+
+## Open items
+All major loan criteria are unknown: purpose, loan amount, stage, location, occupancy, target program, borrower citizenship, employment type, qualifying income, loan-related DTI ratios, property details.
+
+## Context
+No contextual information is documented yet beyond placeholders in PDF files.
