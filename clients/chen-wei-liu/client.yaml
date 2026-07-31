@@ -1,0 +1,16 @@
+# Machine-managed by Mortgage Work — do not edit by hand.
+# Free-form notes belong in PROFILE.md; this file only holds structured facts.
+schema: 1
+name: Chen Wei Liu
+purpose: purchase
+amount: 312000
+stage: lead
+city: Riverside, CA
+contact:
+  phone: "+86 138 5550 0294"
+  email: chenwei.liu@example.com
+borrowers:
+  - name: Chen Wei Liu
+    role: borrower
+    citizenship: foreign_national
+created: 2026-07-21
