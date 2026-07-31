@@ -10,5 +10,6 @@ contact:
   email: r.alvarez@example.com
 borrowers:
   - name: Robert Alvarez
+    role: borrower
     citizenship: us_citizen
 created: 2026-07-01

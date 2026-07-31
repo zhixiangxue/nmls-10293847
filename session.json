@@ -1,0 +1,16 @@
+{
+ "view": "clients",
+ "client": "zhixiang",
+ "tabs": [
+  {
+   "kind": "modelsettings"
+  },
+  {
+   "kind": "file",
+   "scope": "zhixiang",
+   "path": "tmp/record.txt"
+  }
+ ],
+ "active": "file:zhixiang:tmp/record.txt",
+ "conv": "c-20260731-1037-3134"
+}

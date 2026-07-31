@@ -10,5 +10,6 @@ contact:
   email: nina.petrova@example.com
 borrowers:
   - name: Nina Petrova
+    role: borrower
     citizenship: permanent_resident
 created: 2026-07-21

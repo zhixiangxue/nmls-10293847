@@ -11,7 +11,9 @@ contact:
   email: sarah.mitchell@example.com
 borrowers:
   - name: Sarah Mitchell
+    role: borrower
     citizenship: us_citizen
   - name: David Mitchell
+    role: co_borrower
     citizenship: us_citizen
 created: 2026-07-10

@@ -7,6 +7,7 @@ stage: closed
 city: Denver, CO
 borrowers:
   - name: Lisa Wong
+    role: borrower
     citizenship: us_citizen
 created: 2026-03-02
 closed: 2026-05-12

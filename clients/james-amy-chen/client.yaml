@@ -10,7 +10,9 @@ contact:
   email: james.chen@example.com
 borrowers:
   - name: James Chen
+    role: borrower
     citizenship: us_citizen
   - name: Amy Chen
+    role: co_borrower
     citizenship: permanent_resident
 created: 2026-06-18

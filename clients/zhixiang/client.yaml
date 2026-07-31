@@ -10,5 +10,6 @@ contact:
   email: x@gmail.com
 borrowers:
 - name: zhixiang
+  role: borrower
   citizenship: foreign_national
 created: 2026-07-30
