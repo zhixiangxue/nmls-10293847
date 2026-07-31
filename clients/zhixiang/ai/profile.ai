@@ -1,0 +1,41 @@
+# zhixiang — clerk
+
+> Maintained by clerk · as of 441f137 · 2026-07-31
+> Verifiable facts with sources. Judgement and strategy live in PROFILE.md.
+
+## Loan
+purpose: Refinance  
+loan amount: $1,000,000  
+stage: unknown — documents incomplete  
+location: unknown — documents do not specify  
+occupancy: Foreign National  
+target program: unknown — specific program not identified
+
+## Borrowers
+unknown — borrower details not given in available documents
+
+## Income
+unknown — income verification documents not on file
+
+## Credit
+unknown — no credit report or FICO score provided in available documents
+
+## Property
+type: unknown — property type not specified  
+purchase price: $395,000 @ clients/zhixiang/tmp/record.txt  
+appraisal status: unknown — appraisal documents not on file
+
+## Documents on file
+assets: GlobalTrust.pdf  
+notes: checklist-missing-docs.md  
+tmp: record.txt, Special Alt Doc 04.27.26.pdf, 《美国住宅房屋买卖全流程完全指南》.md
+
+## Open items
+- Identity and visa documents for Foreign Nationals
+- Income verification (either WVOE or self-employment documents)
+- Asset documentation including recent bank statements and wire transfer proof
+- Property appraisal and title documents
+- Confirmation of refinance type and property purpose
+
+## Context
+2026-07-30: Borrower Zhang Wei discussed mortgage pre-qualification. Interested in $400,000 primary residence with $395,000 listing price. Annual income: $85,000 (borrower), $62,000 (spouse). Student loans: $18,000 remaining. Credit scores: 740 (borrower), 720 (spouse). Putting down $80,000 (20%). Closing costs estimated at 3%-5% of purchase price. @ clients/zhixiang/tmp/record.txt
