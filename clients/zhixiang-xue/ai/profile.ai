@@ -4,35 +4,47 @@
 > Verifiable facts with sources. Judgement and strategy live in PROFILE.md.
 
 ## Loan
-purpose: Purchase, investment · clients/zhixiang-xue/notes/111.md
-loan amount: $750,000 (75% LTV) · clients/zhixiang-xue/notes/111.md
-stage: Shopping, no specific property under contract yet · clients/zhixiang-xue/notes/111.md
-location: North Seattle (Green Lake / Northgate area) · clients/zhixiang-xue/notes/111.md
-occupancy: Investment · clients/zhixiang-xue/notes/111.md
-target program: Foreign national DSCR program · clients/zhixiang-xue/notes/111.md
+purpose: purchase, investment @ clients/zhixiang-xue/notes/111.md
+loan amount: $750,000 (75% LTV) @ clients/zhixiang-xue/notes/111.md
+stage: unknown — no specific property under contract yet @ clients/zhixiang-xue/notes/111.md
+location: Seattle, Washington (North Seattle) @ clients/zhixiang-xue/notes/111.md
+occupancy: investment @ clients/zhixiang-xue/notes/111.md
+target program: foreign national DSCR program @ clients/zhixiang-xue/notes/111.md
 
 ## Borrowers
-Zhixiang · Borrower · Chinese national · Salaried employee in China · clients/zhixiang-xue/notes/111.md
+Zhixiang · borrower · Chinese national · salaried employee in China @ clients/zhixiang-xue/notes/111.md
 
 ## Income
-unknown — borrower prefers not to document overseas income, considering a program qualifying on the property's market rent · clients/zhixiang-xue/notes/111.md
+qualifying income: unknown — prefers not to document overseas income; will qualify on market rent @ clients/zhixiang-xue/notes/111.md
+front-end DTI: unknown @ clients/zhixiang-xue/notes/111.md
+back-end DTI: unknown @ clients/zhixiang-xue/notes/111.md
+income evidence: none yet; will not document overseas income @ clients/zhixiang-xue/notes/111.md
 
 ## Credit
-FICO: None (no US credit history; never held US credit) · clients/zhixiang-xue/notes/111.md
+FICO: none @ clients/zhixiang-xue/notes/111.md
+date pulled: unknown — never held US credit @ clients/zhixiang-xue/notes/111.md
 
 ## Property
-type: Single-family home · clients/zhixiang-xue/notes/111.md
-purchase price: Target ~$1,000,000 · clients/zhixiang-xue/notes/111.md
-appraisal status: Unknown — no specific property under contract yet
+type: single-family home @ clients/zhixiang-xue/notes/111.md
+purchase price: ~$1,000,000 @ clients/zhixiang-xue/notes/111.md
+appraisal status: unknown — no property identified yet @ clients/zhixiang-xue/notes/111.md
 
 ## Documents on file
+ai/profile.ai
+assets/.gitkeep
+client.yaml
+credit/.gitkeep
+income/.gitkeep
 notes/111.md
+PROFILE.md
 
 ## Open items
-- Collect two months of US bank statements to source and season funds
-- Copy of passport and visa
-- Match to a foreign national DSCR program
-- Order rent schedule (Form 1007) once a property is identified
+collect two months of US bank statements to source and season funds @ clients/zhixiang-xue/notes/111.md
+copy of passport and visa @ clients/zhixiang-xue/notes/111.md
+match to a foreign national DSCR program @ clients/zhixiang-xue/notes/111.md
+order rent schedule (Form 1007) once a property is identified @ clients/zhixiang-xue/notes/111.md
 
 ## Context
-Zhixiang is a Chinese national residing in Hangzhou, aiming to purchase a property in Seattle for investment and future use by his child during their schooling in the US. He intends to rent out the property in the interim. · clients/zhixiang-xue/notes/111.md
+Zhixiang has $300,000 in a US bank (Bank of America) since early 2025. @ clients/zhixiang-xue/notes/111.md
+His long-term plan is for his child to live in the property when they come to the US for school in a few years; until then, he intends to rent it out. @ clients/zhixiang-xue/notes/111.md
+None of the financial information has been verified; it's based on Zhixiang's statements during the call. @ clients/zhixiang-xue/notes/111.md
