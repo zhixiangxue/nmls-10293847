@@ -1,45 +1,29 @@
 # zhixiang — clerk
 
-> Maintained by clerk · as of bfb29bd · 2026-07-31
+> Maintained by clerk · as of 62bc6ca · 2026-07-31
 > Verifiable facts with sources. Judgement and strategy live in PROFILE.md.
 
 ## Loan
-purpose: purchase @ clients/zhixiang/client.yaml  
-loan amount: $750,000 @ clients/zhixiang/client.yaml  
-stage: lead @ clients/zhixiang/client.yaml  
-location: unknown — not specified in available documents  
-occupancy: unknown — not specified in available documents  
-target program: unknown — not specified in available documents  
+unknown — no purpose, stage, location, occupancy, or target program provided in PROFILE.md or other documents
 
 ## Borrowers
-zhixiang · role: borrower · citizenship: foreign_national · employment type: unknown @ clients/zhixiang/client.yaml  
+unknown — no borrowers' details provided in PROFILE.md or other documents
 
 ## Income
-qualifying income: unknown — no income documentation provided  
-front-end DTI: unknown — no DTI information provided  
-back-end DTI: unknown — no DTI information provided  
-income evidence: none provided  
+unknown — no qualifying income, front-end DTI, back-end DTI, or income evidence provided
 
 ## Credit
-FICO: unknown — no credit report found in available documents  
-credit report date: unknown — no credit report found in available documents  
+unknown — no FICO score or date provided
 
 ## Property
-type: unknown — no property details in available documents  
-purchase price: unknown — no purchase agreement found  
-appraisal status: unknown — no appraisal documentation found  
+unknown — no property type, purchase price, or appraisal status provided
 
 ## Documents on file
-assets: .gitkeep  
-credit: .gitkeep  
-income: .gitkeep  
+none
 
 ## Open items
-- Employment type documentation  
-- Income documentation  
-- Credit report  
-- Property details and purchase agreement  
-- Target loan program specification  
+Income documents (paystubs, W-2s or bank statements) @ clients/zhixiang/PROFILE.md
+Credit pull @ clients/zhixiang/PROFILE.md
 
 ## Context
-None provided so far.
+07/31 — File opened @ clients/zhixiang/PROFILE.md
