@@ -1,6 +1,6 @@
 # zhixiang
 
-Purchase · $1,000,000 target.
+Purchase · $750,000 target.
 
 ## Snapshot
 
