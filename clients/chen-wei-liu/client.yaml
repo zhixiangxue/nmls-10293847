@@ -4,7 +4,7 @@ schema: 1
 name: Chen Wei Liu
 purpose: purchase
 amount: 312000
-stage: lead
+stage: active
 city: Riverside, CA
 contact:
   phone: "+86 138 5550 0294"
