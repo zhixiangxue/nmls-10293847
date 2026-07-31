@@ -1,0 +1,19 @@
+# Machine-managed by Mortgage Work — do not edit by hand.
+# Free-form notes belong in PROFILE.md; this file only holds structured facts.
+schema: 1
+name: Daniel Okafor
+purpose: purchase
+amount: 760000
+stage: lead
+city: Fremont, CA
+contact:
+  phone: "+1 (510) 555-0182"
+  email: daniel.okafor@example.com
+borrowers:
+  - name: Daniel Okafor
+    role: borrower
+    citizenship: us_citizen
+  - name: Grace Okafor
+    role: co_borrower
+    citizenship: permanent_resident
+created: 2026-07-06
