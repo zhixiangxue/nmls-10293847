@@ -16,7 +16,12 @@
 - Has never held US credit; no FICO score on file.
 - Purchasing an investment property in Riverside.
 
+## Qualifying figures
+
+- Proposed PITIA: $2,720/mo
+- DSCR: 1.25
+
 ## Open items
 
-- Overseas bank statement — not yet received
-- Rent schedule — not yet ordered
+- ~~Overseas bank statement~~ — received
+- ~~Rent schedule~~ — received
