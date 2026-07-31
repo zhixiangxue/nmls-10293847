@@ -4,7 +4,7 @@ schema: 1
 name: Daniel Okafor
 purpose: purchase
 amount: 735000
-stage: lead
+stage: docs
 city: Fremont, CA
 contact:
   phone: "+1 (510) 555-0182"
