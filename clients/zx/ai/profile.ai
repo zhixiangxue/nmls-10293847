@@ -1,31 +1,37 @@
 # zx — clerk
 
-> Maintained by clerk · as of d19060d · 2026-07-31
+> Maintained by clerk · as of 5ac8fba · 2026-08-01
 > Verifiable facts with sources. Judgement and strategy live in PROFILE.md.
 
 ## Loan
-purpose: purchase, loan amount: $750,000, stage: lead, location: unknown — no location data available, occupancy: unknown — no occupancy data available, target program: unknown — no specific loan program mentioned in the files
+purpose: unknown — loan purpose is not specified in the available documents
+loan amount: unknown — loan amount is not specified in the available documents
+stage: unknown — current stage is not specified in the available documents
+location: unknown — property location is not specified in the available documents
+occupancy: unknown — occupancy information is not specified in the available documents
+target program: unknown — target program is not specified in the available documents
 
 ## Borrowers
-zx · borrower · foreign_national · unknown — no employment type information available
+unknown — borrower details are not specified in the available documents
 
 ## Income
-unknown — income details and supporting documents such as paystubs, W-2s, or bank statements are missing; unknown — no front-end DTI calculation available; unknown — no back-end DTI calculation available; unknown — no income evidence currently on file
+unknown — qualifying income and DTI figures are not specified in the available documents
+unknown — income evidence is not specified
 
 ## Credit
-unknown — credit report has not been pulled yet
+unknown — FICO score and date pulled are not provided
 
 ## Property
-type: unknown — no property information available, purchase price: unknown — no purchase contract on file, appraisal status: unknown — no appraisal information available
+type: unknown — property type is not specified in the available documents
+purchase price: unknown — purchase price is not found in the available documents
+appraisal status: unknown — appraisal status is not specified
 
 ## Documents on file
-assets: .gitkeep
-credit: .gitkeep
-income: .gitkeep
-za: 111.md
+clients/zx/ : za/b9f0cdd10ea179418dc5748e766215b782d5fe.jpg, za/URLA-2019-Borrower-v28.pdf
 
 ## Open items
-Income documents (paystubs, W-2s or bank statements), credit pull.
+Borrower's personal information, employment details, and financial information need to be filled and verified. 
 
 ## Context
-07/31 — file opened; new lead, no documents on file yet.
+2026-08-01: The chalkboard diagram in the image za/b9f0cdd10ea179418dc5748e766215b782d5fe.jpg pertains to a technical architecture named "HERMES AGENT 黑板报技术架构图." It describes two processes: "External Evolution - Dynamic Skill Generation" and "Internal Evolution - GRPO Weight Internalization."
+2026-08-01: The Uniform Residential Loan Application PDF pending information completion for sections like personal information, employment, income, assets, liabilities, and loan details.
