@@ -1,37 +1,39 @@
 # zx — clerk
 
-> Maintained by clerk · as of 5ac8fba · 2026-08-01
+> Maintained by clerk · as of 2306d09 · 2026-08-01
 > Verifiable facts with sources. Judgement and strategy live in PROFILE.md.
 
 ## Loan
-purpose: unknown — loan purpose is not specified in the available documents
-loan amount: unknown — loan amount is not specified in the available documents
-stage: unknown — current stage is not specified in the available documents
-location: unknown — property location is not specified in the available documents
-occupancy: unknown — occupancy information is not specified in the available documents
-target program: unknown — target program is not specified in the available documents
+purpose: unknown — no document specifies the loan purpose
+loan amount: unknown — no document specifies the loan amount
+stage: unknown — no document specifies the loan stage
+location: unknown — no document specifies the property location
+occupancy: unknown — no document specifies the occupancy
+target program: unknown — no document specifies the target program
 
 ## Borrowers
-unknown — borrower details are not specified in the available documents
+unknown — no document specifies borrower details
 
 ## Income
-unknown — qualifying income and DTI figures are not specified in the available documents
-unknown — income evidence is not specified
+qualifying income: unknown — no document specifies qualifying income
+front-end DTI: unknown — no document specifies front-end DTI
+back-end DTI: unknown — no document specifies back-end DTI
+income evidence: unknown — no document specifies what income evidence consists of
 
 ## Credit
-unknown — FICO score and date pulled are not provided
+FICO: unknown — no document specifies FICO
+credit pull date: unknown — no document specifies when the credit was pulled
 
 ## Property
-type: unknown — property type is not specified in the available documents
-purchase price: unknown — purchase price is not found in the available documents
-appraisal status: unknown — appraisal status is not specified
+type: unknown — no document specifies the property type
+purchase price: unknown — no document specifies the purchase price
+appraisal status: unknown — no document specifies the appraisal status
 
 ## Documents on file
-clients/zx/ : za/b9f0cdd10ea179418dc5748e766215b782d5fe.jpg, za/URLA-2019-Borrower-v28.pdf
+za: Amazon EC2 Instance Comparison.csv
 
 ## Open items
-Borrower's personal information, employment details, and financial information need to be filled and verified. 
+unknown — no document specifies what is missing or owed
 
 ## Context
-2026-08-01: The chalkboard diagram in the image za/b9f0cdd10ea179418dc5748e766215b782d5fe.jpg pertains to a technical architecture named "HERMES AGENT 黑板报技术架构图." It describes two processes: "External Evolution - Dynamic Skill Generation" and "Internal Evolution - GRPO Weight Internalization."
-2026-08-01: The Uniform Residential Loan Application PDF pending information completion for sections like personal information, employment, income, assets, liabilities, and loan details.
+unknown — no document provides context outside structured fields
