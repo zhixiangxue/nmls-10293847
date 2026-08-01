@@ -1,0 +1,50 @@
+API Name,Instance Memory,vCPUs,GPUs,GPU model,GPU memory,Instance Storage,Arch,Network Performance,On Demand,Linux Reserved cost,Linux Spot Minimum cost,GPU Architectures
+g5.16xlarge,256 GiB,64 vCPUs,1,NVIDIA A10G,24 GiB,1900 GB NVMe SSD,x86_64,25 Gigabit,,,,Ampere
+g5.2xlarge,32 GiB,8 vCPUs,1,NVIDIA A10G,24 GiB,450 GB NVMe SSD,x86_64,Up to 10 Gigabit,,,,Ampere
+g5.4xlarge,64 GiB,16 vCPUs,1,NVIDIA A10G,24 GiB,600 GB NVMe SSD,x86_64,Up to 25 Gigabit,,,,Ampere
+g5.8xlarge,128 GiB,32 vCPUs,1,NVIDIA A10G,24 GiB,900 GB NVMe SSD,x86_64,25 Gigabit,,,,Ampere
+g5.xlarge,16 GiB,4 vCPUs,1,NVIDIA A10G,24 GiB,250 GB NVMe SSD,x86_64,Up to 10 Gigabit,,,,Ampere
+g6.16xlarge,256 GiB,64 vCPUs,1,NVIDIA L4,24 GiB,1880 GB (2×940 GB NVMe SSD),x86_64,25 Gigabit,,,,Ada Lovelace
+g6.2xlarge,32 GiB,8 vCPUs,1,NVIDIA L4,24 GiB,450 GB NVMe SSD,x86_64,Up to 10 Gigabit,,,,Ada Lovelace
+g6.4xlarge,64 GiB,16 vCPUs,1,NVIDIA L4,24 GiB,600 GB NVMe SSD,x86_64,Up to 25 Gigabit,,,,Ada Lovelace
+g6.8xlarge,128 GiB,32 vCPUs,1,NVIDIA L4,24 GiB,900 GB (2×450 GB NVMe SSD),x86_64,25 Gigabit,,,,Ada Lovelace
+g6.xlarge,16 GiB,4 vCPUs,1,NVIDIA L4,24 GiB,250 GB NVMe SSD,x86_64,Up to 10 Gigabit,,,,Ada Lovelace
+gr6.4xlarge,128 GiB,16 vCPUs,1,NVIDIA L4,24 GiB,600 GB NVMe SSD,x86_64,Up to 25 Gigabit,,,,Ada Lovelace
+gr6.8xlarge,256 GiB,32 vCPUs,1,NVIDIA L4,24 GiB,900 GB (2×450 GB NVMe SSD),x86_64,25 Gigabit,,,,Ada Lovelace
+g3.16xlarge,488 GiB,64 vCPUs,4,NVIDIA Tesla M60,32 GiB,EBS only,x86_64,20 Gigabit,$6.136 hourly,,,
+g6e.16xlarge,512 GiB,64 vCPUs,1,NVIDIA L40S,48 GiB,1900 GB (2×950 GB NVMe SSD),x86_64,35 Gigabit,,,,Ada Lovelace
+g6e.2xlarge,64 GiB,8 vCPUs,1,NVIDIA L40S,48 GiB,450 GB NVMe SSD,x86_64,Up to 20 Gigabit,,,,Ada Lovelace
+g6e.4xlarge,128 GiB,16 vCPUs,1,NVIDIA L40S,48 GiB,600 GB NVMe SSD,x86_64,20 Gigabit,,,,Ada Lovelace
+g6e.8xlarge,256 GiB,32 vCPUs,1,NVIDIA L40S,48 GiB,900 GB (2×450 GB NVMe SSD),x86_64,25 Gigabit,,,,Ada Lovelace
+g6e.xlarge,32 GiB,4 vCPUs,1,NVIDIA L40S,48 GiB,250 GB NVMe SSD,x86_64,Up to 20 Gigabit,,,,Ada Lovelace
+g4dn.12xlarge,192 GiB,48 vCPUs,4,NVIDIA T4 Tensor Core,64 GiB,900 GB NVMe SSD,x86_64,50 Gigabit,$4.694 hourly,$3.303 hourly,$1.5142 hourly,"Turing, Turing, Turing, Turing"
+p3.8xlarge,244 GiB,32 vCPUs,4,NVIDIA Tesla V100,64 GiB,EBS only,x86_64,10 Gigabit,,,,
+p5.4xlarge,256 GiB,16 vCPUs,1,NVIDIA H100,80 GiB,3800 GB NVMe SSD,x86_64,100 Gigabit,,,,
+g5.12xlarge,192 GiB,48 vCPUs,4,NVIDIA A10G,96 GiB,3800 GB NVMe SSD,x86_64,40 Gigabit,,,,"Ampere, Ampere, Ampere, Ampere"
+g5.24xlarge,384 GiB,96 vCPUs,4,NVIDIA A10G,96 GiB,3800 GB NVMe SSD,x86_64,50 Gigabit,,,,"Ampere, Ampere, Ampere, Ampere"
+g6.12xlarge,192 GiB,48 vCPUs,4,NVIDIA L4,96 GiB,3760 GB (4×940 GB NVMe SSD),x86_64,40 Gigabit,,,,"Ada Lovelace, Ada Lovelace, Ada Lovelace, Ada Lovelace"
+g6.24xlarge,384 GiB,96 vCPUs,4,NVIDIA L4,96 GiB,3760 GB (4×940 GB NVMe SSD),x86_64,50 Gigabit,,,,"Ada Lovelace, Ada Lovelace, Ada Lovelace, Ada Lovelace"
+g7e.2xlarge,64 GiB,8 vCPUs,1,NVIDIA GB202,96 GiB,1900 GB NVMe SSD,x86_64,50 Gigabit,,,,Blackwell
+g7e.4xlarge,128 GiB,16 vCPUs,1,NVIDIA GB202,96 GiB,1900 GB NVMe SSD,x86_64,50 Gigabit,,,,Blackwell
+g7e.8xlarge,256 GiB,32 vCPUs,1,NVIDIA GB202,96 GiB,1900 GB NVMe SSD,x86_64,100 Gigabit,,,,Blackwell
+p2.8xlarge,488 GiB,32 vCPUs,4,NVIDIA Tesla K80,96 GiB,EBS only,x86_64,10 Gigabit,,,,
+g4dn.metal,384 GiB,96 vCPUs,8,NVIDIA T4 Tensor Core,128 GiB,1800 GB (2×900 GB NVMe SSD),x86_64,100 Gigabit,$9.389 hourly,$6.605 hourly,$3.6741 hourly,"Turing, Turing, Turing, Turing, Turing, Turing, Turing, Turing"
+p3.16xlarge,488 GiB,64 vCPUs,8,NVIDIA Tesla V100,128 GiB,EBS only,x86_64,25 Gigabit,,,,
+g5.48xlarge,768 GiB,192 vCPUs,8,NVIDIA A10G,192 GiB,7600 GB (2×3800 GB NVMe SSD),x86_64,100 Gigabit,,,,"Ampere, Ampere, Ampere, Ampere, Ampere, Ampere, Ampere, Ampere"
+g6.48xlarge,768 GiB,192 vCPUs,8,NVIDIA L4,192 GiB,7520 GB (8×940 GB NVMe SSD),x86_64,100 Gigabit,,,,"Ada Lovelace, Ada Lovelace, Ada Lovelace, Ada Lovelace, Ada Lovelace, Ada Lovelace, Ada Lovelace, Ada Lovelace"
+g6e.12xlarge,384 GiB,48 vCPUs,4,NVIDIA L40S,192 GiB,3800 GB (2×1900 GB NVMe SSD),x86_64,100 Gigabit,,,,"Ada Lovelace, Ada Lovelace, Ada Lovelace, Ada Lovelace"
+g6e.24xlarge,768 GiB,96 vCPUs,4,NVIDIA L40S,192 GiB,3800 GB (2×1900 GB NVMe SSD),x86_64,200 Gigabit,,,,"Ada Lovelace, Ada Lovelace, Ada Lovelace, Ada Lovelace"
+g7e.12xlarge,512 GiB,48 vCPUs,2,NVIDIA GB202,192 GiB,3800 GB NVMe SSD,x86_64,400 Gigabit,,,,"Blackwell, Blackwell"
+p2.16xlarge,732 GiB,64 vCPUs,8,NVIDIA Tesla K80,192 GiB,EBS only,x86_64,20 Gigabit,,,,
+p3dn.24xlarge,768 GiB,96 vCPUs,8,NVIDIA Tesla V100,256 GiB,1800 GB (2×900 GB NVMe SSD),x86_64,100 Gigabit,,,,
+p4d.24xlarge,1152 GiB,96 vCPUs,8,NVIDIA A100,320 GiB,8000 GB (8×1000 GB NVMe SSD),x86_64,4x 100 Gigabit,,,,"Ampere, Ampere, Ampere, Ampere, Ampere, Ampere, Ampere, Ampere"
+g6e.48xlarge,1536 GiB,192 vCPUs,8,NVIDIA L40S,384 GiB,7600 GB (4×1900 GB NVMe SSD),x86_64,400 Gigabit,,,,"Ada Lovelace, Ada Lovelace, Ada Lovelace, Ada Lovelace, Ada Lovelace, Ada Lovelace, Ada Lovelace, Ada Lovelace"
+g7e.24xlarge,1024 GiB,96 vCPUs,4,NVIDIA GB202,384 GiB,7600 GB (2×3800 GB NVMe SSD),x86_64,800 Gigabit,,,,"Blackwell, Blackwell, Blackwell, Blackwell"
+p4de.24xlarge,1152 GiB,96 vCPUs,8,NVIDIA A100,640 GiB,8000 GB (8×1000 GB NVMe SSD),x86_64,4x 100 Gigabit,,,,"Ampere, Ampere, Ampere, Ampere, Ampere, Ampere, Ampere, Ampere"
+p5.48xlarge,2048 GiB,192 vCPUs,8,NVIDIA H100,640 GiB,30400 GB (8×3800 GB NVMe SSD),x86_64,3200 Gigabit,$68.80 hourly,,$19.8745 hourly,"Hopper, Hopper, Hopper, Hopper, Hopper, Hopper, Hopper, Hopper"
+g7e.48xlarge,2048 GiB,192 vCPUs,8,NVIDIA GB202,768 GiB,15200 GB (4×3800 GB NVMe SSD),x86_64,1600 Gigabit,,,,"Blackwell, Blackwell, Blackwell, Blackwell, Blackwell, Blackwell, Blackwell, Blackwell"
+p5e.48xlarge,2048 GiB,192 vCPUs,8,NVIDIA H200,1128 GiB,30400 GB (8×3800 GB NVMe SSD),x86_64,3200 Gigabit,,,,"Hopper, Hopper, Hopper, Hopper, Hopper, Hopper, Hopper, Hopper"
+p5en.48xlarge,2048 GiB,192 vCPUs,8,NVIDIA H200,1128 GiB,30400 GB (8×3800 GB NVMe SSD),x86_64,3200 Gigabit,$79.12 hourly,,$10.6814 hourly,
+p6-b200.48xlarge,2048 GiB,192 vCPUs,8,NVIDIA B200,1440 GiB,30400 GB (8×3800 GB NVMe SSD),x86_64,3200 Gigabit,,,,"Blackwell, Blackwell, Blackwell, Blackwell, Blackwell, Blackwell, Blackwell, Blackwell"
+p6-b300.48xlarge,4096 GiB,192 vCPUs,8,NVIDIA B300,2100 GiB,30400 GB (8×3800 GB NVMe SSD),x86_64,6400 Gigabit,,,,
+p6e-gb200.36xlarge,960 GiB,144 vCPUs,36,NVIDIA B200,6660 GiB,EBS only,x86_64,1700 Gigabit,,,,
