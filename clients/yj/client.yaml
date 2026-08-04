@@ -1,0 +1,15 @@
+# Machine-managed by Mortgage Work — do not edit by hand.
+# Free-form notes belong in ai/profile.ai; this file only holds structured facts.
+schema: 1
+name: YJ
+purpose: purchase
+stage: lead
+amount: 500000
+contact:
+  phone: '18029384756'
+  email: yj@gmail.com
+borrowers:
+- name: YJ
+  role: borrower
+  citizenship: us_citizen
+created: 2026-08-04
