@@ -1,0 +1,47 @@
+# KK — clerk
+
+> Maintained by clerk · as of 533988e · 2026-08-04
+> Verifiable facts with sources; this is the single source of truth for client knowledge.
+
+## Loan
+purpose: purchase — clients/kk/client.yaml
+loan amount: $800,000 — clients/kk/client.yaml
+stage: lead — clients/kk/client.yaml
+location: unknown — no property address on file
+occupancy: unknown — no documents specify
+target program: unknown — no program selected; lead stage
+
+## Borrowers
+KK · borrower · US citizen · unknown — employment type not yet documented; clients/kk/client.yaml
+
+## Income
+qualifying income: unknown — no income documents on file (2-income/ is empty)
+front-end DTI: unknown — income not yet established
+back-end DTI: unknown — income not yet established
+income evidence: none — clients/kk/2-income/
+
+## Credit
+FICO: unknown — no credit report on file (4-credit/ is empty)
+pulled: unknown
+
+## Property
+type: unknown — no property documents on file (5-property/ is empty)
+purchase price: unknown — no purchase contract on file
+appraisal status: unknown — not yet ordered
+
+## Documents on file
+1-identity/: empty
+2-income/: empty
+3-assets/: empty
+4-credit/: empty
+5-property/: empty
+
+## Open items
+- identity documents owed (1-identity/ is empty)
+- income documents owed — paystubs, W-2s, tax returns, or equivalent (2-income/ is empty)
+- asset statements owed — bank statements, investment accounts (3-assets/ is empty)
+- credit report owed (4-credit/ is empty)
+- property documents owed — purchase contract, listing, or address (5-property/ is empty)
+
+## Context
+2026-08-04 — Client folder created; KK is a US citizen pursuing a purchase loan at $800,000. No documents, no program selection, and no further conversation recorded yet. — clients/kk/client.yaml @ 533988e
