@@ -2,7 +2,7 @@
 
 <!-- This file personalizes your AI assistant across every chat. -->
 <!-- Edit freely — it syncs with your repo and follows you across machines. -->
-
+可编辑区域
 ## Focus
 <!-- What loan types or borrower segments do you specialize in? -->
 <!-- e.g. DSCR investment loans in Southern California, non-QM first. -->
