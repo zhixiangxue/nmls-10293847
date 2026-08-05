@@ -16,8 +16,8 @@ and can be rebuilt from it at any time.
 │       ├── PROFILE.md    # free-form profile — AI-maintained, human-editable
 │       └── …             # any files/folders the LO likes (income/, assets/, …)
 └── products/             # one folder per lender, named as the LO likes
+    ├── index.jsonl      # machine-managed global doc_id → path index (see below)
     └── <lender>/
-        ├── .docs.yaml    # machine-managed file ↔ doc_id index (see below)
         └── …             # guidelines, matrices, rate sheets — any layout
 ```
 
@@ -29,8 +29,9 @@ Rules the IDE enforces (and everything it assumes):
 - Inside a client folder the layout is **free**. The conventional scaffold
   (`income/ assets/ credit/ ai/`) is only a starting point.
 - `products/` folders carry **no hand-written metadata**. Folder name = lender
-  name, files are the product docs. The only reserved file is `.docs.yaml`,
-  written by the IDE. Indexing status is runtime state and never stored here.
+  name, files are the product docs. The only reserved file is
+  `products/index.jsonl`, written by the IDE. Indexing status is runtime state
+  and never stored here.
 - A repo is considered valid iff `clients/` and `products/` exist at the root.
 
 ## client.yaml
@@ -58,29 +59,21 @@ created: 2026-07-10             # date the client file was opened
 closed: 2026-09-30              # only present when stage == closed
 ```
 
-## .docs.yaml (per lender folder)
+## products/index.jsonl
 
-Machine-managed index mapping every source document under the lender folder
-(recursively) to its `doc_id`. Agents reference documents by `doc_id`; this
-file is how a `doc_id` resolves back to a physical file.
+Machine-managed global index mapping every file in the repo (clients +
+products) to its `doc_id`. Agents reference documents by `doc_id`; this file
+is how a `doc_id` resolves back to a physical file.
 
 - `doc_id` is the **xxh64 content hash** of the file — byte-for-byte the same
-  algorithm as kg-service (`kg/agents/hash.py`), so the IDs line up with
-  `allowed_doc_ids` and the graph's `Product.doc_ids` by construction.
+  algorithm as kg-service, so the IDs line up with `allowed_doc_ids` and the
+  graph's `Product.doc_ids` by construction.
 - Content is the identity: renaming keeps the doc_id, editing changes it.
-- Only source extensions are indexed (`.pdf .md .txt .doc .docx .html .htm`);
-  dotfiles and `_`-prefixed artifacts are skipped — the same filter kg-service
-  uses, which is also why this index (a dotfile) never hashes itself.
-- `size`/`mtime` are sync bookkeeping only (skip re-hashing unchanged files),
-  not part of the contract.
+- Updated automatically on every file CRUD (rides in the same commit).
+- The same file may appear under multiple paths — each gets its own record.
 
-```yaml
-schema: 1
-docs:
-  - file: DSCR 10.22.24.pdf     # path relative to the lender folder
-    doc_id: ef73ecbb4dff95b4    # xxh64 of the file bytes
-    size: 140922
-    mtime: 1783474291
+```jsonl
+{"doc_id": "ef73ecbb4dff95b4", "path": "products/itrust/DSCR 10.22.24.pdf", "size": 140922, "indexed_at": "2026-08-05T12:00:00Z"}
 ```
 
 ## Conventions
