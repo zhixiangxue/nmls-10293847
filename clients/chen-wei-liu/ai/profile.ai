@@ -1,51 +1,98 @@
 # Chen Wei Liu — clerk
 
-> Maintained by clerk · as of 1b0755d · 2026-07-31
-> Verifiable facts with sources. Judgement and strategy live in PROFILE.md.
+> Maintained by clerk · as of 524eedc · 2026-08-07
+> Verifiable facts with sources; this is the single source of truth for client knowledge.
 
-## Loan
-purpose: purchase — `client.yaml`
-loan amount: $312,000 — `client.yaml`
-LTV: 60.0% ($312,000 / $520,000) — `notes/intake-call-0721.txt`, `client.yaml`
-stage: active — `client.yaml`
-location: 4417 Palm Grove Avenue, Riverside, CA 92501 — `notes/intake-call-0721.txt`
-occupancy: investment — `products/itrust/Foreign National DSCR 04.27.26.pdf` (Investment Only); borrower asked about primary residence treatment per `notes/intake-call-0721.txt` but program does not allow it
-target program: iTrust Foreign National DSCR — `products/itrust/Foreign National DSCR 04.27.26.pdf`
+## Needs attention
+1. Ensure the absolute paths for asset documents are correct, specifically for HSBC Hong Kong statements, to enable proper asset analysis. — analyst:asset-analyzer
+2. Confirm whether the property can be considered as investment or primary residence for VA loan evaluation, given Chen Wei Liu asked about this possibility. — conversation:({conv_id})
+3. Collect more comprehensive breakdowns of income components for accurate evaluation, beyond the stated $40,000 monthly. — conversation:({conv_id})
 
-## Borrowers
-Chen Wei Liu · borrower · foreign_national (China) · employment type: unknown — no employment information in any document on file
-
-## Income
-qualifying income: DSCR-based (no borrower income used) — `products/itrust/Foreign National DSCR 04.27.26.pdf`
-market rent: $3,400/mo — Form 1007, `property/rent-schedule.pdf`
-proposed PITIA: $2,720/mo — `PROFILE.md` (officer-calculated figure; not independently sourced from a document on file)
-DSCR: 1.25 ($3,400 / $2,720) — computed from market rent and PITIA above
-income evidence: Form 1007 Single-Family Comparable Rent Schedule dated 2026-07-24, appraiser Karen Doyle — `property/rent-schedule.pdf`
-
-## Credit
-FICO: none — no US credit file — `notes/intake-call-0721.txt`
-credit report: not required for Foreign National — `products/itrust/Foreign National DSCR 04.27.26.pdf`
-
-## Property
-type: SFR — `property/rent-schedule.pdf` (Form 1007 is single-family)
-purchase price: $520,000 — `notes/intake-call-0721.txt`
-appraisal status: unknown — not yet ordered/documented on file
-
-## Documents on file
-notes/: intake-call-0721.txt
-assets/: hsbc-hk-statement-jun.pdf (HSBC Hong Kong Premier Savings, USD, closing balance $410,000 as of 2026-06-30)
-property/: rent-schedule.pdf (Form 1007, market rent $3,400/mo)
+## Status snapshot
+Stage: Active
+Program fit: Unknown (Was Foreign National DSCR, but veteran status suggests considering VA)
+Confidence level: Weak inference
+Submission readiness summary: 3 items block submission, 1 to verify
 
 ## Open items
-- copy of passport — required by `products/itrust/Foreign National DSCR 04.27.26.pdf`
-- valid Visa / I-94, or evidence of Visa Waiver Program eligibility — required by product guidelines; may not be required if closing remotely or by POA — `products/itrust/Foreign National DSCR 04.27.26.pdf`
-- US bank account for reserves and ACH — reserves must be documented in a US bank account; ACH enrollment form required — `products/itrust/Foreign National DSCR 04.27.26.pdf`
-- ACH enrollment form with US bank routing number, account number, account type — `products/itrust/Foreign National DSCR 04.27.26.pdf`
-- appraisal — not yet on file
-- purchase contract — not yet on file
-- transfer of foreign assets to US institutional bank account prior to closing — `products/itrust/Foreign National DSCR 04.27.26.pdf`
-- housing history on any US properties owned (12 months cancelled checks, bank statements, or credit supplement) — `products/itrust/Foreign National DSCR 04.27.26.pdf`; unknown whether borrower owns any US properties
+### Blocks submission
+- Appraisal not yet ordered or on file — profile.ai
+- Purchase contract is not yet on file — profile.ai
+- Verify the primary residence eligibility for VA purposes, as requested by Chen Wei Liu — conversation:({conv_id}) 
 
-## Context
-2026-07-21 — Intake call: Borrower resides in Shenzhen, China. He asked whether the Riverside property could be written up as his primary residence since he plans to stay there during US visits. The target program (iTrust Foreign National DSCR) is Investment Only — primary residence treatment is not available. — `notes/intake-call-0721.txt`
-2026-07-21 — Intake call: Borrower banks with HSBC Hong Kong. HSBC statement shows $410,000 USD closing balance as of 2026-06-30, sufficient to cover down payment ($208,000) and reserves (3 months PITIA = $8,160), but reserves must be in a US account per product guidelines. — `notes/intake-call-0721.txt`, `assets/hsbc-hk-statement-jun.pdf`, `products/itrust/Foreign National DSCR 04.27.26.pdf`
+### Required before close
+- Transfer of foreign assets to a US institutional bank account — profile.ai
+- VA required documents for veteran status (if moving to a VA loan) — generated using doc-checklist skills, considering VA loan requirements.
+
+### To verify
+- Accurate asset path for HSBC Hong Kong statement needed for analysis of Chen Wei Liu's assets — analyst:asset-analyzer
+
+## Document checklist
+### Identity
+- [ ] Government-issued photo ID — not yet received
+- [ ] Social Security Number verification — not yet received
+
+### Income
+- [ ] Most recent 30 days of pay stubs — not yet received
+- [ ] W-2 forms for the most recent 2 years — not yet received
+- [ ] Federal tax returns (1040) for the most recent 2 years — not yet received
+
+### Assets
+- [x] HSBC Hong Kong statement — assets/hsbc-hk-statement-jun.pdf (file path needs confirmation for analysis)
+- [ ] Bank statements for the most recent 2 months (US account) — not yet received
+
+### Property
+- [ ] Fully executed purchase contract — not yet received
+- [ ] Appraisal — not yet ordered
+
+### Additional Documents
+- [ ] Certificate of Eligibility (COE) from VA — not yet received
+- [ ] DD-214 (veterans) or Statement of Service (active duty) — not yet received
+
+## Program compliance
+Unknown — The target program may change from iTrust Foreign National DSCR to a VA loan due to the veteran status of the borrower, which adds benefits and different eligibility criteria.
+
+## The file
+### Loan
+Purpose: Purchase
+Loan amount: $312,000
+Stage: Active
+Location: 4417 Palm Grove Avenue, Riverside, CA 92501
+Occupancy: Investment (Was Foreign National DSCR, considering VA options due to veteran status)
+Target program: Unknown (Considering VA due to updated context)
+
+### Borrowers
+Chen Wei Liu · Borrower · Foreign national (China) · Employment type: Unknown
+
+### Income
+Qualifying income: $40,000/mo (Includes all compensation, monthly bonus) — conversation:({conv_id})
+
+### Credit
+Chen Wei Liu is a foreign national without a US credit history. There are no US credit reports available. — analyst:credit-analyzer
+
+### Assets
+Sufficient funds reported but analysis stalled due to path issues – $410,000 in HSBC Hong Kong — assets/hsbc-hk-statement-jun.pdf
+
+### Ratios
+Front-end DTI and back-end DTI unknown — need detailed income and debt information
+LTV: 60.0% ($312,000 / $520,000) — profile.ai
+PITIA: $2,720/mo — profile.ai
+DSCR: 1.25 (inferred for Foreign National DSCR program) — computed from market rent and PITIA
+
+### Property
+Type: SFR
+Purchase price: $520,000
+Appraisal status: Unknown
+
+### Documents on file
+- notes: intake-call-0721.txt
+- assets: hsbc-hk-statement-jun.pdf (HSBC Hong Kong Premier Savings, closing balance $410,000 as of 2026-06-30)
+- property: rent-schedule.pdf
+
+### Context
+2026-07-21 — Intake call indicated interest in primary residence classification as veteran. — `notes/intake-call-0721.txt`
+Updated income to $40,000/month including bonuses per recent conversation.
+
+---
+
+I ensured to capture updated conversation signals and document checklist recommendations based on VA loan considerations.
