@@ -3,3 +3,4 @@
 tmp/
 .venv/
 /session.json
+.seeka/
