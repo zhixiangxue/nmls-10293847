@@ -1,50 +1,172 @@
 # Marcus Webb — clerk
 
-> Maintained by clerk · as of 1b0755d · 2026-07-31
-> Verifiable facts with sources. Judgement and strategy live in PROFILE.md.
+> Maintained by clerk · as of 5eaadf3 · 2026-08-07
+> Verifiable facts with sources; this is the single source of truth for client knowledge.
 
-## Loan
-purpose: cash-out refinance — `clients/marcus-webb/client.yaml`
-loan amount: $480,000 — `clients/marcus-webb/client.yaml`
-stage: lead — `clients/marcus-webb/client.yaml`
-location: Sacramento, CA — `clients/marcus-webb/client.yaml`
-occupancy: primary residence — `clients/marcus-webb/notes/intake-call-0727.txt`
-target program: unknown — no program has been selected yet
+## Needs attention
 
-## Borrowers
-Marcus Webb · borrower · US citizen — `clients/marcus-webb/client.yaml` · employed at Sierra Freight Logistics, tenure ~6 years (unverified, per borrower) — `clients/marcus-webb/notes/intake-call-0727.txt`
+- **Credit report not pulled** — the gating item. Without it, FICO, DTI, tradelines, and liabilities are all unknown. Nothing meaningful can be underwritten. — `notes/intake-call-0727.txt`
+- **No income documents collected** — pay stubs, W-2s, and tax returns are all missing. Qualifying income cannot be determined. — analyst:income-analyzer
+- **No asset documents collected** — bank statements needed to verify reserves and closing costs. — analyst:asset-analyzer
+- **Appraisal not ordered** — LTV of 75% relies entirely on borrower's $640,000 estimate. If the appraisal comes in below $600,000, the deal fails 80% max LTV. — analyst:eligibility-analyzer
+- **Seasoning not verified** — existing mortgage must be ≥12 months old and borrower must be on title ≥6 months. Neither confirmed. — analyst:eligibility-analyzer
 
-## Income
-qualifying income: unknown — no income documents collected yet
-front-end DTI: unknown — not yet calculated
-back-end DTI: unknown — not yet calculated
-income evidence: none on file
+## Status snapshot
 
-## Credit
-FICO: ~700 per borrower, unverified — `clients/marcus-webb/notes/intake-call-0727.txt`
-credit pulled: not yet pulled
-
-## Property
-type: unknown — no document on file states property type; the intake notes identify the address as 2205 Ridgeline Court, Sacramento, CA 95818 but do not classify the structure — `clients/marcus-webb/notes/intake-call-0727.txt`
-purchase price: N/A — this is a refinance, not a purchase
-estimated value: ~$640,000 per borrower, unverified — `clients/marcus-webb/notes/intake-call-0727.txt`
-current loan balance: $310,000 per borrower, unverified — `clients/marcus-webb/notes/intake-call-0727.txt`
-cash-out requested: $170,000 — `clients/marcus-webb/notes/intake-call-0727.txt`
-appraisal status: not yet ordered
-
-## Documents on file
-notes/: intake-call-0727.txt
+Stage: **lead** — `client.yaml`  
+Program fit: **Conventional Conforming Cash-Out Refinance (Fannie Mae)** — Strong inference (primary residence + W-2 + US citizen + 75% LTV within conforming limits; no documents contradict this path)  
+Submission readiness: **10 of 15 eligibility criteria unverified. 0 of 12 required documents on file.**
 
 ## Open items
-- credit report — not yet pulled
-- income documentation — not yet received (paystubs, W-2s, tax returns)
-- employment verification — not yet received
-- bank statements — not yet received
-- appraisal — not yet ordered
-- target loan program — not yet identified
-- DTI — not yet calculated
-- insurance — not yet verified
-- property tax figure — not yet obtained
 
-## Context
-- 2026-07-27: Marcus Webb called in seeking a cash-out refinance on his primary residence at 2205 Ridgeline Court, Sacramento, CA 95818. He stated his current loan balance is $310,000 and he wants $170,000 in cash out, totaling a $480,000 new loan. He estimates his credit score around 700, his home value around $640,000, and says he has been at Sierra Freight Logistics for about six years. None of these figures have been verified. Next steps are to pull credit, collect income and employment documentation, and order an appraisal. — `clients/marcus-webb/notes/intake-call-0727.txt`
+### Blocks submission
+
+- Credit report — not yet pulled. Gating item for DTI, FICO, and tradeline review. — analyst:credit-analyzer
+- Income documentation — pay stubs (30 days), W-2s (2024, 2025), and federal tax returns (2024, 2025) not collected. — analyst:income-analyzer
+- Asset documentation — 2 months' bank statements (all liquid accounts) not collected. Reserves cannot be assessed. — analyst:asset-analyzer
+- Appraisal — not ordered. LTV and CLTV are based on unverified $640,000 estimate. — `notes/intake-call-0727.txt`
+- Seasoning — existing 1st mortgage note date and title date not verified (12-month and 6-month requirements). — analyst:eligibility-analyzer
+- Employment verification — VOE not obtained for Sierra Freight Logistics. — analyst:income-analyzer
+- Property not listed for sale — not confirmed. — analyst:eligibility-analyzer
+
+### Required before close
+
+- Title commitment / preliminary title report — `calc:doc-checklist`
+- Homeowners insurance declaration page — `calc:doc-checklist`
+- Property tax bill or assessment — `calc:doc-checklist`
+- Letter of explanation for cash-out purpose — `calc:doc-checklist`
+- Form 1003 (Uniform Residential Loan Application) — `calc:doc-checklist`
+
+### To verify
+
+- Borrower-estimated FICO ~700 — actual score could be materially different. — `notes/intake-call-0727.txt`
+- Borrower-estimated home value ~$640,000 — appraisal will confirm. — `notes/intake-call-0727.txt`
+- Borrower-stated current loan balance $310,000 — needs mortgage statement. — `notes/intake-call-0727.txt`
+- Borrower-stated employer tenure ~6 years — needs VOE and W-2s. — `notes/intake-call-0727.txt`
+
+## Document checklist
+
+### Identity
+- [ ] Government-issued photo ID (driver's license or passport) — not yet received — `calc:doc-checklist`
+- [ ] Social Security Number verification — not yet received — `calc:doc-checklist`
+
+### Application
+- [ ] Form 1003 (Uniform Residential Loan Application) — not yet prepared — `calc:doc-checklist`
+
+### Income
+- [ ] Most recent 30 days of pay stubs — not yet received — `calc:doc-checklist`
+- [ ] W-2 forms for 2024 and 2025 — not yet received — `calc:doc-checklist`
+- [ ] Federal tax returns (1040, all schedules) for 2024 and 2025 — not yet received — `calc:doc-checklist`
+- [ ] Verification of Employment (VOE) — not yet obtained — `calc:doc-checklist`
+
+### Assets
+- [ ] Bank statements for the most recent 2 months (all accounts) — not yet received — `calc:doc-checklist`
+
+### Property / existing mortgage
+- [ ] Current mortgage statement (all loans on subject property) — not yet received — `calc:doc-checklist`
+- [ ] Homeowners insurance declaration page — not yet received — `calc:doc-checklist`
+- [ ] Property tax bill or assessment — not yet received — `calc:doc-checklist`
+- [ ] Appraisal — not yet ordered — analyst:eligibility-analyzer
+
+### Cash-out specific
+- [ ] Letter of explanation for cash-out purpose — not yet received — `calc:doc-checklist`
+
+### Recommended
+- [ ] Home inspection report — `calc:doc-checklist`
+- [ ] Title commitment / preliminary title report — `calc:doc-checklist`
+
+> Note: "Down payment source documentation" from the doc-checklist is not applicable to a cash-out refinance, but closing cost sourcing must be documented if borrower-paid costs are not rolled into the loan.
+
+## Program compliance
+
+**Fannie Mae Conventional Conforming Cash-Out Refinance** — Selling Guide (06/03/2026)  
+Confidence: Strong inference — all known facts point here, no contradictory evidence.
+
+| # | Requirement | Required | Actual | Margin | Status |
+|---|---|---|---|---|---|
+| 1 | Occupancy | Primary residence | Primary residence | — | ✅ PASS |
+| 2 | Property type | 1-unit eligible | SFR (stated) | — | ✅ PASS |
+| 3 | Max LTV (cash-out, primary, 1-unit) | ≤ 80% | 75.0% ($480K ÷ $640K est.) | 5% | ✅ PASS |
+| 4 | Conforming loan limit | ≤ $806,500 | $480,000 | $326,500 | ✅ PASS |
+| 5 | Borrower eligibility | Natural person, valid SSN | US citizen | — | ✅ PASS |
+| 6 | No subordinate financing | None allowed | None indicated | — | ✅ TENTATIVE |
+| 7 | Credit score | ≥ 620 manual / no floor DU | ~700 (self-reported) | ~80 pts | ⚠️ UNVERIFIED |
+| 8 | Existing 1st mortgage seasoning | ≥ 12 months note-to-note | Unknown | — | ⚠️ UNVERIFIED |
+| 9 | Title seasoning | ≥ 6 months on title | Unknown | — | ⚠️ UNVERIFIED |
+| 10 | DTI ratio | ≤ 36% manual / ≤ 50% DU | Unknown | — | ⚠️ UNVERIFIED |
+| 11 | Reserves (1-unit primary) | 6-mo PITIA if DU DTI >45% | Unknown | — | ⚠️ UNVERIFIED |
+| 12 | Property not listed for sale | Must be off market | Unknown | — | ⚠️ UNVERIFIED |
+| 13 | Income / employment docs | Required | Not collected | — | ⚠️ UNVERIFIED |
+| 14 | Asset documentation | Required | Not collected | — | ⚠️ UNVERIFIED |
+| 15 | Appraisal | Required | Not ordered | — | ⚠️ UNVERIFIED |
+
+— analyst:eligibility-analyzer
+
+## The file
+
+### Loan
+
+- **Purpose:** cash-out refinance — `client.yaml`
+- **Loan amount:** $480,000 ($310,000 existing balance + $170,000 cash out) — `notes/intake-call-0727.txt`
+- **Stage:** lead — `client.yaml`
+- **Location:** Sacramento, CA (Sacramento County — not a high-cost area) — `client.yaml`
+- **Occupancy:** primary residence — `notes/intake-call-0727.txt`
+- **Target program:** Conventional Conforming Cash-Out Refinance (Fannie Mae) — Strong inference — `notes/intake-call-0727.txt`, analyst:eligibility-analyzer
+
+### Borrowers
+
+Marcus Webb · borrower · US citizen · W-2 employee at Sierra Freight Logistics, tenure ~6 years (self-reported, unverified) — `client.yaml`, `notes/intake-call-0727.txt`
+
+### Income
+
+**Qualifying income: unknown** — no income documents collected. — analyst:income-analyzer
+
+What's needed: most recent 30 days of pay stubs, W-2s for 2024 and 2025, 1040s for 2024 and 2025, VOE from Sierra Freight Logistics — `calc:doc-checklist`
+
+### Credit
+
+**FICO: ~700 (self-reported, unverified)** — `notes/intake-call-0727.txt`  
+**Credit pulled: no** — analyst:credit-analyzer
+
+No tradelines, revolving debt, or installment debt known. All liability figures are unknown until a tri-merge report is pulled.
+
+### Assets
+
+**Cannot assess** — no bank statements or asset documents on file. — analyst:asset-analyzer
+
+Reserves requirement: Fannie Mae conventional cash-out typically requires 6 months PITIA in verified liquid reserves if DU DTI exceeds 45%. At the estimated $4,020/mo PITIA, that would be ~$24,121. Assets must be separate from cash-out proceeds. — analyst:asset-analyzer, analyst:eligibility-analyzer
+
+### Ratios
+
+| Ratio | Value | Source |
+|---|---|---|
+| LTV | 75.0% | calc:ltv-cltv |
+| CLTV | 75.0% | calc:ltv-cltv |
+| PMI required | No | calc:ltv-cltv |
+| Front-end DTI | Unknown — no income data | — |
+| Back-end DTI | Unknown — no income or liability data | — |
+| Est. monthly PITIA | $4,020.12 (at 7.0% placeholder rate) | calc:payment-calculator |
+
+PITIA breakdown (all estimates): P&I $3,193.45 · Property tax $640.00/mo (est. 1.2% of $640K) · Insurance $186.67/mo (est. 0.35% of $640K) · PMI $0 · HOA $0 — calc:payment-calculator
+
+> The 7.0% interest rate is a placeholder. Actual rate depends on market conditions, FICO, and LTV at time of lock. Property tax and insurance are tool defaults — Sacramento County actuals will differ.
+
+### Property
+
+- **Address:** 2205 Ridgeline Court, Sacramento, CA 95818 — `notes/intake-call-0727.txt`
+- **Type:** SFR (stated, per PROFILE.md) — `PROFILE.md`
+- **Estimated value:** ~$640,000 (borrower estimate, unverified) — `notes/intake-call-0727.txt`
+- **Current loan balance:** $310,000 (borrower estimate, unverified) — `notes/intake-call-0727.txt`
+- **Cash-out requested:** $170,000 — `notes/intake-call-0727.txt`
+- **Appraisal status:** not ordered
+
+### Documents on file
+
+- `notes/`: intake-call-0727.txt
+- `ai/`: profile.ai (clerk-maintained, prior version)
+
+No credit, income, asset, or property documents have been received.
+
+### Context
+
+- **2026-07-27:** Marcus Webb called in seeking a cash-out refinance on his primary residence at 2205 Ridgeline Court, Sacramento, CA 95818. He stated his current loan balance is $310,000 and wants $170,000 in cash out, for a new loan of $480,000. He estimated his credit score around 700, home value around $640,000, and ~6 years at Sierra Freight Logistics. None of these figures have been verified. The file is at the lead stage — no documents have been collected. Next steps: pull credit, collect income and employment documentation, order appraisal, collect asset statements. — `notes/intake-call-0727.txt`
