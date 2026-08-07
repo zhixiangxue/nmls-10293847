@@ -6,6 +6,8 @@ Purchase price: $520,000
 Target loan amount: $312,000
 Purpose: Purchase
 
+Client is a veteran.
+
 Chen Wei Liu is a foreign national currently residing in Shenzhen, China. He
 is looking to purchase a property in Riverside as an investment. He has never
 held US credit and has no FICO score.
