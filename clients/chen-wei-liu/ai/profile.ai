@@ -1,6 +1,6 @@
 # Chen Wei Liu — clerk
 
-> Maintained by clerk · as of 524eedc · 2026-08-07
+> Maintained by clerk · as of e2fbc99 · 2026-08-08
 > Verifiable facts with sources; this is the single source of truth for client knowledge.
 
 ## Needs attention
@@ -9,16 +9,16 @@
 3. Collect more comprehensive breakdowns of income components for accurate evaluation, beyond the stated $40,000 monthly. — conversation:({conv_id})
 
 ## Status snapshot
-Stage: Active
-Program fit: Unknown (Was Foreign National DSCR, but veteran status suggests considering VA)
-Confidence level: Weak inference
+Stage: Active  
+Program fit: Unknown (Was Foreign National DSCR, but veteran status suggests considering VA)  
+Confidence level: Weak inference  
 Submission readiness summary: 3 items block submission, 1 to verify
 
 ## Open items
 ### Blocks submission
 - Appraisal not yet ordered or on file — profile.ai
 - Purchase contract is not yet on file — profile.ai
-- Verify the primary residence eligibility for VA purposes, as requested by Chen Wei Liu — conversation:({conv_id}) 
+- Verify the primary residence eligibility for VA purposes, as requested by Chen Wei Liu — conversation:({conv_id})
 
 ### Required before close
 - Transfer of foreign assets to a US institutional bank account — profile.ai
@@ -54,11 +54,11 @@ Unknown — The target program may change from iTrust Foreign National DSCR to a
 
 ## The file
 ### Loan
-Purpose: Purchase
-Loan amount: $312,000
-Stage: Active
-Location: 4417 Palm Grove Avenue, Riverside, CA 92501
-Occupancy: Investment (Was Foreign National DSCR, considering VA options due to veteran status)
+Purpose: Purchase  
+Loan amount: $312,000  
+Stage: Active  
+Location: 4417 Palm Grove Avenue, Riverside, CA 92501  
+Occupancy: Investment (Was Foreign National DSCR, considering VA options due to veteran status)  
 Target program: Unknown (Considering VA due to updated context)
 
 ### Borrowers
@@ -74,14 +74,14 @@ Chen Wei Liu is a foreign national without a US credit history. There are no US 
 Sufficient funds reported but analysis stalled due to path issues – $410,000 in HSBC Hong Kong — assets/hsbc-hk-statement-jun.pdf
 
 ### Ratios
-Front-end DTI and back-end DTI unknown — need detailed income and debt information
-LTV: 60.0% ($312,000 / $520,000) — profile.ai
-PITIA: $2,720/mo — profile.ai
+Front-end DTI and back-end DTI unknown — need detailed income and debt information  
+LTV: 60.0% ($312,000 / $520,000) — profile.ai  
+PITIA: $2,720/mo — profile.ai  
 DSCR: 1.25 (inferred for Foreign National DSCR program) — computed from market rent and PITIA
 
 ### Property
-Type: SFR
-Purchase price: $520,000
+Type: SFR  
+Purchase price: $520,000  
 Appraisal status: Unknown
 
 ### Documents on file
@@ -90,9 +90,5 @@ Appraisal status: Unknown
 - property: rent-schedule.pdf
 
 ### Context
-2026-07-21 — Intake call indicated interest in primary residence classification as veteran. — `notes/intake-call-0721.txt`
+2026-07-21 — Intake call indicated interest in primary residence classification as veteran. — `notes/intake-call-0721.txt`  
 Updated income to $40,000/month including bonuses per recent conversation.
-
----
-
-I ensured to capture updated conversation signals and document checklist recommendations based on VA loan considerations.
