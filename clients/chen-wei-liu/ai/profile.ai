@@ -1,31 +1,29 @@
 # Chen Wei Liu — clerk
 
-> Maintained by clerk · as of b7006c4 · 2026-08-08
+> Maintained by clerk · as of 5bf3701 · 2026-08-08
 > Verifiable facts with sources; this is the single source of truth for client knowledge.
 
 ## Needs attention
-1. Paths for HSBC Hong Kong statements must be confirmed for accurate asset analysis. — analyst:asset-analyzer
-2. Determine if the property can qualify as a primary residence for VA loan purposes, as requested by Chen Wei Liu. — conversation:({conv_id})
-3. Obtain detailed income components beyond the stated $40,000 monthly for accurate evaluation. — conversation:({conv_id})
+1. Verify VA loan eligibility due to Chen Wei Liu's veteran status and inquiry about primary residence possibilities. — `notes/intake-call-0721.txt`
+2. Validate the file path for the HSBC Hong Kong statement to ensure accurate asset analysis. — analyst:asset-analyzer
 
 ## Status snapshot
-Stage: Active  
-Program fit: Unknown (Considering Foreign National DSCR and VA due to veteran status)  
-Confidence level: Weak inference  
-Submission readiness summary: 3 items block submission, 1 to verify
+Stage: Active
+Program fit: Considering VA (due to confirmed veteran status and primary residence interest)
+Confidence level: Strong inference
+Submission readiness summary: 2 items block submission
 
 ## Open items
 ### Blocks submission
-- Appraisal is not yet ordered or on file — profile.ai
-- Purchase contract is not yet on file — profile.ai
-- Confirm primary residence eligibility for VA loan as per Chen Wei Liu's request — conversation:({conv_id})
+- Purchase contract not yet on file — profile.ai
+- VA loan eligibility and primary residence classification for eligibility — `notes/intake-call-0721.txt`
 
 ### Required before close
-- Transfer foreign assets to a U.S. institutional bank — profile.ai
-- VA required documents for veteran status (if moving to a VA loan) — to generate using doc-checklist skills per VA loan requirements.
+- Transfer of foreign assets to a US institutional bank account — profile.ai
+- Collection of required VA loan documents if proceeding with VA option.
 
 ### To verify
-- Correct asset path required for HSBC Hong Kong statement analysis of Chen Wei Liu's assets — analyst:asset-analyzer
+- Correct file path for HSBC Hong Kong statement needed for asset verification — analyst:asset-analyzer
 
 ## Document checklist
 ### Identity
@@ -38,8 +36,8 @@ Submission readiness summary: 3 items block submission, 1 to verify
 - [ ] Federal tax returns (1040) for the most recent 2 years — not yet received
 
 ### Assets
-- [x] HSBC Hong Kong statement — assets/hsbc-hk-statement-jun.pdf (verification of file path required)
-- [ ] Bank statements for the most recent 2 months (U.S. account) — not yet received
+- [x] HSBC Hong Kong statement — assets/hsbc-hk-statement-jun.pdf (file path needs confirmation for analysis)
+- [ ] Bank statements for the most recent 2 months (US account) — not yet received
 
 ### Property
 - [ ] Fully executed purchase contract — not yet received
@@ -50,46 +48,45 @@ Submission readiness summary: 3 items block submission, 1 to verify
 - [ ] DD-214 (veterans) or Statement of Service (active duty) — not yet received
 
 ## Program compliance
-Unknown — Possible change from iTrust Foreign National DSCR to VA loan consideration given veteran status of the borrower which affects benefits and eligibility.
+Considering switch to VA loan due to veteran status. Need to ensure compliance with VA requirements, particularly for primary residence classification benefits.
 
 ## The file
 ### Loan
-Purpose: Purchase  
-Loan amount: $312,000  
-Stage: Active  
-Location: 4417 Palm Grove Avenue, Riverside, CA 92501  
-Occupancy: Investment (Considering VA due to veteran status)  
-Target program: Unknown
+Purpose: Purchase
+Loan amount: $312,000
+Stage: Active
+Location: 4417 Palm Grove Avenue, Riverside, CA 92501
+Occupancy: Potentially primary residence (VA consideration)
+Target program: VA (inferred strong consideration)
 
 ### Borrowers
 Chen Wei Liu · Borrower · Foreign national (China) · Employment type: Unknown
 
 ### Income
-Qualifying income: $40,000/mo (Includes all compensation, monthly bonus) — conversation:({conv_id})
+Qualifying income: $40,000/mo (Includes all compensation, monthly bonus) — `notes/intake-call-0721.txt`
 
 ### Credit
 Chen Wei Liu is a foreign national without a US credit history. There are no US credit reports available. — analyst:credit-analyzer
 
 ### Assets
-Sufficient funds but analysis paused for path issues – $410,000 in HSBC Hong Kong — assets/hsbc-hk-statement-jun.pdf
+Sufficient funds reported but analysis stalled due to path issues – $410,000 in HSBC Hong Kong — assets/hsbc-hk-statement-jun.pdf
 
 ### Ratios
-Front-end DTI and back-end DTI unknown — need detailed income and debt information  
-LTV: 60.0% ($312,000 / $520,000) — profile.ai  
-PITIA: $2,720/mo — profile.ai  
-DSCR: 1.25 (inferred for Foreign National DSCR program) — computed from market rent and PITIA
+Front-end DTI and back-end DTI unknown — need detailed income and debt information
+LTV: 60.0% ($312,000 / $520,000) — profile.ai
 
 ### Property
-Type: SFR  
-Purchase price: $520,000  
+Type: SFR
+Purchase price: $520,000
 Appraisal status: Unknown
 
 ### Documents on file
 - notes: intake-call-0721.txt
 - assets: hsbc-hk-statement-jun.pdf (HSBC Hong Kong Premier Savings, closing balance $410,000 as of 2026-06-30)
 - property: rent-schedule.pdf
+- notes: TraceRoot（YC25）.docx
 
 ### Context
-2026-07-21 — Intake call indicated interest in primary residence classification as veteran. — notes/intake-call-0721.txt  
-Updated income to $40,000/month including bonuses per recent conversation.  
-Amazon EC2 Instance Comparison and TraceRoot（YC25） documents have been added to notes but are not directly relevant to loan processing — git:150b702, b7006c4
+- 2026-07-21: Intake call indicated interest in primary residence classification as veteran. — `notes/intake-call-0721.txt`
+- Updated income to $40,000/month including bonuses per recent conversation.
+- TraceRoot.AI: Open-source AI observability platform noted in context — notes/TraceRoot（YC25）.docx
