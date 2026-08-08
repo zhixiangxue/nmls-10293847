@@ -1,0 +1,1 @@
+![pasted_20260808T032005Z.jpeg](assets/pasted_20260808T032005Z.jpeg)
