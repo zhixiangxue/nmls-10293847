@@ -1,6 +1,6 @@
 # Mendez — clerk
 
-> Maintained by clerk · as of 950740e · 2026-08-10
+> Maintained by clerk · as of 47800fd · 2026-08-10
 > Verifiable facts with sources; this is the single source of truth for client knowledge.
 
 ## Needs attention
@@ -23,18 +23,23 @@ Stage: lead; Program fit: FHA with strong inference (based on credit score, low 
 ### Identity
 - [x] Driver license — 1-identity/driver-license.pdf
 - [ ] SSN verification — not yet received
+
 ### Income
 - [x] Paystubs (30 days) — 2-income/carlos-paystub-2026-06.pdf, 2-income/carlos-paystub-2026-07.pdf
 - [x] 2-year W-2s — 2-income/carlos-w2-2024.pdf, 2-income/carlos-w2-2025.pdf
 - [ ] Federal tax returns — not yet received
+
 ### Assets
 - [x] Recent bank statement — 3-assets/bbva-checking-2026-07.pdf
 - [x] Gift letter — 3-assets/gift-letter.pdf
+
 ### Credit
 - [x] Credit Report — 4-credit/credit-report.pdf
+
 ### Property
 - [x] Purchase contract — 5-property/purchase-contract.pdf
 - [ ] FHA Appraisal — not yet ordered
+
 ### Additional
 - [x] Occupancy affidavit — 1-identity/occupancy-affidavit.pdf
 - [x] Residency history — 1-identity/residency-history.pdf
@@ -72,7 +77,9 @@ Front-end DTI 0% (no housing payment) · Back-end DTI 6.35% — calc:dti-calcula
 Type: single-family home; Purchase price: $310,000; Appraisal status: needed — notes/intake-call-0730.txt (2026-08-01)
 
 ### Documents on file
-1-identity (3), 2-income (5), 3-assets (2), 4-credit (1), 5-property (2), 6-notes (1)
+1-identity (3), 2-income (5), 3-assets (2), 4-credit (1), 5-property (2), 6-notes (1), other (1) — clients/mendez/other/URLA-2019-Borrower-v28.pdf
 
 ### Context
 Carlos Mendez is a first-time homebuyer targeting an FHA loan for a primary residence, showing willingness to manage required appraisals and documentation to qualify — notes/intake-call-0730.txt (2026-08-01)
+
+The newly added Uniform Residential Loan Application (URLA) confirms personal information, employment, and other details pertinent to the application and identifies military service history, demographic data, and financial acknowledgments — clients/mendez/other/URLA-2019-Borrower-v28.pdf
