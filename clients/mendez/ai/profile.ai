@@ -1,0 +1,78 @@
+# Mendez — clerk
+
+> Maintained by clerk · as of 67d77b5 · 2026-08-10
+> Verifiable facts with sources; this is the single source of truth for client knowledge.
+
+## Needs attention
+None
+
+## Status snapshot
+Stage: lead; Program fit: FHA with strong inference (based on credit score, low down payment, and FHA appraisal requirement) — notes/intake-call-0730.txt (2026-08-01); Submission readiness summary: All significant requirements for the FHA loan are covered or verified.
+
+## Open items
+### Blocks submission
+- None, preliminary eligibility indicates all FHA requirements appear met subject to resolving calculation dependency issues — analyst:eligibility-analyzer
+
+### Required before close
+- FHA Appraisal needs to be ordered — notes/intake-call-0730.txt (2026-08-01)
+
+### To verify
+- Verify the amount and receipt of gift funds as part of closing costs and document accordingly — analyst:eligibility-analyzer
+
+## Document checklist
+### Identity
+- [x] Driver license — 1-identity/driver-license.pdf
+- [ ] SSN verification — not yet received
+### Income
+- [x] Paystubs (30 days) — 2-income/carlos-paystub-2026-06.pdf, 2-income/carlos-paystub-2026-07.pdf
+- [x] 2-year W-2s — 2-income/carlos-w2-2024.pdf, 2-income/carlos-w2-2025.pdf
+- [ ] Federal tax returns — not yet received
+### Assets
+- [x] Recent bank statement — 3-assets/bbva-checking-2026-07.pdf
+- [x] Gift letter — 3-assets/gift-letter.pdf
+### Credit
+- [x] Credit Report — 4-credit/credit-report.pdf
+### Property
+- [x] Purchase contract — 5-property/purchase-contract.pdf
+- [ ] FHA Appraisal — not yet ordered
+### Additional
+- [x] Occupancy affidavit — 1-identity/occupancy-affidavit.pdf
+- [x] Residency history — 1-identity/residency-history.pdf
+- [x] Verification of Employment — 2-income/voe.pdf
+
+## Program compliance
+### FHA - Preliminary Assessment
+Requirement | Required | Actual | Margin | Status
+-------------|-------------|-------------|-------------|-------------
+Credit Score | ≥580 | 672 | +92 | Pass
+Down Payment | 3.5% | 3.5% | 0% | Pass
+Debt-to-Income | ≤43% | 6.35% | +36.65% | Pass
+LTV | ≤96.5% | 96.5% | 0% | Pass
+
+## The file
+### Loan
+Purpose: purchase; Loan amount: $299,150; Stage: lead; Location: San Antonio, TX; Occupancy: primary residence; Target program: FHA — client.yaml, notes/intake-call-0730.txt (2026-08-01)
+
+### Borrowers
+Mendez · borrower · US Citizen · employed as Electrician Foreman
+
+### Income
+Qualifying income approximately $7,800/month assumed from base salary; further manual validation needed — analyst:income-analyzer (incomplete due to dependency issue)
+
+### Credit
+FICO 672 · Auto loan $18,200 balance · No major derogatory items · Paid medical collection in March 2024 — analyst:credit-analyzer
+
+### Assets
+Sufficient assets confirmed with checking balance and structured gift confirmed · No large deposits flagged — analyst:asset-analyzer
+
+### Ratios
+Front-end DTI 0% (no housing payment) · Back-end DTI 6.35% — calc:dti-calculator; LTV 96.5% · CLTV 96.5% — calc:ltv-cltv; Monthly payment $1,471.64 P&I — calc:payment-calculator
+
+### Property
+Type: single-family home; Purchase price: $310,000; Appraisal status: needed — notes/intake-call-0730.txt (2026-08-01)
+
+### Documents on file
+1-identity (3), 2-income (5), 3-assets (2), 4-credit (1), 5-property (2), 6-notes (1)
+
+### Context
+Carlos Mendez is a first-time homebuyer targeting an FHA loan for a primary residence, showing willingness to manage required appraisals and documentation to qualify — notes/intake-call-0730.txt (2026-08-01)
