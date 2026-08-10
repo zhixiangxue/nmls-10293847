@@ -65,9 +65,14 @@
 {"doc_id": "149ed2cf893f26ef", "path": "clients/priya-raman/income/pl-2025-draft.pdf", "size": 1904, "indexed_at": "2026-08-07T10:13:18Z"}
 {"doc_id": "62b5c182134498e5", "path": "clients/priya-raman/notes/call-transcript-0724.txt", "size": 532, "indexed_at": "2026-08-07T10:13:18Z"}
 {"doc_id": "a542b87cc291274c", "path": "clients/priya-raman/notes/intake-call-0713.txt", "size": 797, "indexed_at": "2026-08-07T10:13:18Z"}
+{"doc_id": "d95f6cfc1bebccd1", "path": "clients/robert-chang/1099-nec-amazon-2025.pdf", "size": 3261, "indexed_at": "2026-08-10T15:51:55Z"}
+{"doc_id": "609ac032e2a894ee", "path": "clients/robert-chang/1099-nec-microsoft-2025.pdf", "size": 3494, "indexed_at": "2026-08-10T15:51:55Z"}
+{"doc_id": "c8cdce5c23bf2e73", "path": "clients/robert-chang/1099-nec-others-2025.pdf", "size": 3126, "indexed_at": "2026-08-10T15:51:55Z"}
+{"doc_id": "b4dddbd734e2c3c0", "path": "clients/robert-chang/1099-summary-2024.pdf", "size": 2716, "indexed_at": "2026-08-10T15:51:55Z"}
 {"doc_id": "086c16cf768e2842", "path": "clients/robert-chang/business-license.pdf", "size": 3988, "indexed_at": "2026-08-10T15:51:47Z"}
 {"doc_id": "f81acad4ae1b2f28", "path": "clients/robert-chang/chase-personal-2026-07.pdf", "size": 5033, "indexed_at": "2026-08-10T15:51:36Z"}
 {"doc_id": "e736c453068f32d7", "path": "clients/robert-chang/client.yaml", "size": 307, "indexed_at": "2026-08-10T15:51:25Z"}
+{"doc_id": "2aaab8ec4023f8a8", "path": "clients/robert-chang/cpa-profit-loss.pdf", "size": 7173, "indexed_at": "2026-08-10T15:51:55Z"}
 {"doc_id": "a680901a7b3946ab", "path": "clients/robert-chang/credit-report.pdf", "size": 6932, "indexed_at": "2026-08-10T15:51:41Z"}
 {"doc_id": "16c41a023a5e5595", "path": "clients/robert-chang/driver-license.pdf", "size": 2364, "indexed_at": "2026-08-10T15:51:47Z"}
 {"doc_id": "4bd8640112da304b", "path": "clients/robert-chang/vanguard-brokerage-2026-06.pdf", "size": 4101, "indexed_at": "2026-08-10T15:51:36Z"}
