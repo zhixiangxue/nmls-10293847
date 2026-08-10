@@ -1,0 +1,11 @@
+# Machine-managed by Mortgage Work — do not edit by hand.
+# Free-form notes belong in ai/profile.ai; this file only holds structured facts.
+schema: 1
+name: robert chang
+purpose: purchase
+stage: lead
+borrowers:
+- name: robert chang
+  role: borrower
+  citizenship: us_citizen
+created: 2026-08-10
