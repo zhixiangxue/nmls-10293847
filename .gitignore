@@ -12,3 +12,6 @@ tmp/
 
 # chak runtime state
 .chak/
+
+.tmp/
+/.tmp/
