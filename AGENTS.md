@@ -65,3 +65,6 @@ needed to prove it.
 ## Lender Preferences
 <!-- Which lenders do you reach for first, and in what order? -->
 <!-- e.g. itrust for non-QM, JMAC for FHA, NewWave for bank statement programs. -->
+
+
+
