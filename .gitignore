@@ -3,4 +3,12 @@
 tmp/
 .venv/
 /session.json
+
+# seeka memory — local state, ignored for now
 .seeka/
+
+# local index database
+.index.db
+
+# chak runtime state
+.chak/
