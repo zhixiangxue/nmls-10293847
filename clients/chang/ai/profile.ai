@@ -1,0 +1,85 @@
+# chang — clerk
+
+> Maintained by clerk · as of e12fe4c · 2026-08-11
+> Verifiable facts with sources; this is the single source of truth for client knowledge.
+
+## Needs attention
+- The credit analysis tool encountered an error and could not process the credit report. Manual review or alternative solution is needed to confirm creditworthiness.
+- Clarify and confirm borrower's identity as there are inconsistencies and mismatches noted between different records and conversation memory.
+
+## Status snapshot
+Lead stage, program fit: Non-QM 1099 Income (Explicit), submission readiness: 2 items block submission, 1 to verify.
+
+## Open items
+### Blocks submission
+- Credit report analysis failed due to tool execution error. Manual review needed — clients/chang/4-credit/credit-report.pdf
+- Borrower identity discrepancies need verification; intake notes and records show potential mismatches.
+
+### Required before close
+- None.
+
+### To verify
+- Confirm identity details, considering potential inconsistencies with conversation memory — clients/chang/6-notes/intake-call-0806.txt (2026-08-06)
+
+## Document checklist
+### Identity
+- [x] Driver license — clients/chang/1-identity/driver-license.pdf
+- [ ] SSN verification — not yet received
+
+### Income
+- [x] 1099-NEC Forms (Amazon, Microsoft, others) — clients/chang/2-income/
+- [x] CPA Profit & Loss Statement — clients/chang/2-income/cpa-profit-loss.pdf
+- [ ] Bank deposits verification for 1099 income — not yet received
+
+### Assets
+- [x] Chase personal bank statement — clients/chang/3-assets/chase-personal-2026-07.pdf
+- [x] Vanguard brokerage statement — clients/chang/3-assets/vanguard-brokerage-2026-06.pdf
+
+### Credit
+- [x] Credit report (manual review required) — clients/chang/4-credit/credit-report.pdf
+
+### Property
+- [x] Property disclosure — clients/chang/5-property/property-disclosure.pdf
+- [x] Purchase contract — clients/chang/5-property/purchase-contract.pdf
+- [ ] Property appraisal — not yet received
+
+## Program compliance
+### Non-QM 1099 Program
+Requirement | Required | Actual | Margin | Status
+----------- | -------- | ------ | ------ | ------
+LTV | ≤ 80% | 80% | met | Pass
+Back-end DTI | ≤ 50% | 43.06% | Pass | Pass
+Income Verification | Yes | CPA P&L provided | n/a | Pass
+
+## The file
+### Loan
+Purpose: purchase · Loan amount: $460,000 · Stage: lead · Location: San Diego, CA · Occupancy: primary residence · Target program: Non-QM 1099 Income
+
+### Borrowers
+Robert James Chang · borrower · US citizen · IT contractor (self-employed)
+
+### Income
+Qualifying income: $10,125/mo — analyst:income-analyzer
+
+### Credit
+Unknown due to tool error — manual review needed of clients/chang/4-credit/credit-report.pdf
+
+### Assets
+Sufficient, with a gap in liquid reserves noted — analyst:asset-analyzer
+
+### Ratios
+Front-end DTI 36.64%, Back-end DTI 43.06%, LTV 80% — calc:ltv-cltv; Total monthly payment $3,416.71 — calc:payment-calculator
+
+### Property
+Type: SFR, Purchase price: $575,000, Appraisal: pending
+
+### Documents on file
+- Identity: business-license.pdf, driver-license.pdf
+- Income: list of 1099s, cpa-profit-loss.pdf
+- Assets: chase-personal-2026-07.pdf, vanguard-brokerage-2026-06.pdf
+- Credit: credit-report.pdf
+- Property: property-disclosure.pdf, purchase-contract.pdf
+- Notes: intake-call-0806.txt
+
+### Context
+As noted in the intake call (2026-08-06), Robert James Chang is pursuing a Non-QM loan, prioritizing a CPA P&L for income calculation despite potential variances using the standard expense factor. This impacts the back-end DTI, critical for loan approval — notes/intake-call-0806.txt (2026-08-06).
