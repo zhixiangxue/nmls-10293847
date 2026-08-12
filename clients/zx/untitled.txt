@@ -1,0 +1,5 @@
+修复： 在 ClientTree.vue 和 ProductTree.vue 的 .tree 容器上加了 @click.self="onRootClick"：
+.self 修饰符确保只有直接点击空白区域才触发——点击子节点（文件夹、文件）不会冒泡到这里，不会误清
+onRootClick 把 store.selectedPath 设回 ""，即根目录
+pasteTarget() 看到 "" 就返回 ""，paste 落到根目录
+现在点空白区域 → 选中状态清空 → paste 正确落到根目录。
