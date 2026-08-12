@@ -1,39 +1,140 @@
 # zx — clerk
 
-> Maintained by clerk · as of 2306d09 · 2026-08-01
-> Verifiable facts with sources. Judgement and strategy live in PROFILE.md.
+> Maintained by clerk · as of 344beff · 2026-08-12
+> Verifiable facts with sources; this is the single source of truth for client knowledge.
 
-## Loan
-purpose: unknown — no document specifies the loan purpose
-loan amount: unknown — no document specifies the loan amount
-stage: unknown — no document specifies the loan stage
-location: unknown — no document specifies the property location
-occupancy: unknown — no document specifies the occupancy
-target program: unknown — no document specifies the target program
+## Needs attention
+- **LTV/cash gap**: borrower expects 75% LTV ($250K down on $1M), iTrust FN DSCR max is 70% purchase LTV. At $750K loan, need ~$1.071M purchase / ~$321K down — exceeds $300K total claimed assets before closing costs. Must resolve before offer. — analyst:eligibility-analyzer
+- **Purchase price ambiguity**: intake notes say ~$7,500,000 but also $750K at 75% LTV — mathematically $1M, not $7.5M. Confirm with borrower. — clients/zx/PROFILE.md (inferred)
+- **No verified assets**: intake claims ~$300K at BofA since early 2025 but zero bank statements on file. — analyst:asset-analyzer
+- **No DSCR possible yet**: no property identified, no Form 1007 rent schedule, no appraisal. Program eligibility hinges on DSCR. — analyst:eligibility-analyzer
+- **No identity docs**: passport, visa, I-94 not collected — table stakes for foreign national program. — analyst:doc-checklist
 
-## Borrowers
-unknown — no document specifies borrower details
-
-## Income
-qualifying income: unknown — no document specifies qualifying income
-front-end DTI: unknown — no document specifies front-end DTI
-back-end DTI: unknown — no document specifies back-end DTI
-income evidence: unknown — no document specifies what income evidence consists of
-
-## Credit
-FICO: unknown — no document specifies FICO
-credit pull date: unknown — no document specifies when the credit was pulled
-
-## Property
-type: unknown — no document specifies the property type
-purchase price: unknown — no document specifies the purchase price
-appraisal status: unknown — no document specifies the appraisal status
-
-## Documents on file
-za: Amazon EC2 Instance Comparison.csv
+## Status snapshot
+Stage: Lead · Program fit: iTrust Foreign National DSCR (Strong inference) · Submission readiness: 6 items block submission, 5 items can be collected now.
 
 ## Open items
-unknown — no document specifies what is missing or owed
+### Blocks submission
+- Purchase contract — no property identified yet — analyst:doc-checklist
+- Form 1007 (rent schedule) — requires identified property — analyst:doc-checklist
+- Appraisal — ordered after contract — analyst:doc-checklist
+- Title report — ordered after contract — analyst:doc-checklist
+- Hazard insurance binder — before closing — analyst:doc-checklist
+- LTV/cash gap unresolved — borrower must adjust expectations or find more cash — analyst:eligibility-analyzer
 
-## Context
-unknown — no document provides context outside structured fields
+### Required before close
+- 2 months BofA statements (verify $300K, season funds) — analyst:asset-analyzer
+- Passport copy, US visa, I-94 — analyst:doc-checklist
+- ACH enrollment form (executed with BofA routing/account) — analyst:doc-checklist
+- Completed URLA (current one is blank) — analyst:doc-checklist
+- US mailing address for loan application — analyst:doc-checklist
+
+### To verify
+- Purchase price: $7.5M in intake notes conflicts with $750K/75% LTV math ($1M). Confirm actual target. — clients/zx/PROFILE.md (inferred)
+- DSCR tier: at est. $4,500 rent vs. $6,194 PITIA, DSCR ≈ 0.73 — falls in 0.75–0.999 tier, dropping LTV to 65% and widening cash gap further. Run actual comps before making offers. — analyst:eligibility-analyzer
+- Borrower willingness to accept 5-year hard prepayment penalty — not yet discussed — analyst:eligibility-analyzer
+- Alternative credit documentation may be needed even though credit report is waived — analyst:credit-analyzer
+- Gift funds allowed per iTrust for DP, closing, reserves — backup if cash gap can't be closed — analyst:asset-analyzer
+
+## Document checklist
+### Identity
+- [ ] Passport (all pages, photo/signature/visa) — not yet collected
+- [ ] US Visa — not yet collected
+- [ ] I-94 Arrival/Departure Record — not yet collected
+- [ ] US mailing address — not yet provided
+
+### Assets
+- [ ] 2 months BofA statements (all pages) — not yet received
+- [ ] ACH Enrollment Form (executed) — not yet collected
+- [ ] Bank Certification Letter or VOD (alternative to statements) — not yet requested
+
+### Loan application
+- [ ] Completed Form 1003 (URLA) — blank URLA on file at za/URLA-2019-Borrower-v28.pdf, no borrower data
+- [ ] Signed borrower disclosures (LE, intent to proceed) — not yet generated
+
+### Income (DSCR path — no personal income needed)
+- [x] N/A — loan qualifies on property market rent, not borrower income — analyst:income-analyzer
+
+### Credit
+- [x] Credit report — waived for Foreign Nationals per iTrust FN DSCR — analyst:credit-analyzer
+- [ ] Alternative credit (if needed) — 2-3 tradelines, 12-24 months — not yet started
+
+### Property (requires identified property)
+- [ ] Purchase Contract + addenda — no property identified yet
+- [ ] Form 1007 (Single Family Comparable Rent Schedule) — core DSCR document
+- [ ] Full Appraisal (USPAP/AIR compliant)
+- [ ] Preliminary Title Report
+
+### Insurance
+- [ ] Hazard Insurance binder (full replacement cost, correct mortgagee clause)
+
+## Program compliance
+Program: iTrust Foreign National DSCR (04.27.26) — products/itrust/Foreign National DSCR 04.27.26.pdf
+
+| Requirement | Required | Actual | Margin | Status |
+|---|---|---|---|---|
+| Foreign National eligible | FN allowed | Chinese national, Hangzhou | — | ✅ PASS |
+| Credit report | Not required for FN | No FICO / no US credit | — | ✅ PASS |
+| Occupancy | Investment only | Rent out until child arrives | — | ✅ PASS |
+| Property type | SFR allowed | SFH North Seattle | — | ✅ PASS (assumed) |
+| Loan amount cap | ≤ $1,000,000 | $750,000 | $250K | ✅ PASS |
+| Max LTV (Purchase, DSCR ≥ 1.00) | 70% | 75% implied ($750K / $1M) | −5% | 🔴 GAP |
+| Cash to close (DP + closing + reserves) | ~$364K needed | ~$300K claimed | ~−$64K | 🔴 GAP |
+| DSCR (rent / PITIA) | ≥ 0.500 min | Unknown — no property, no 1007 | — | ⬜ TBD |
+| Reserves (PITIA) | 3 months (≤ $1M loan) | ~$18K est. from BofA claim | — | ⬜ TBD |
+| US bank account | Required for reserves & ACH | BofA ~$300K (claimed) | — | ✅ PASS |
+| Passport / Visa / I-94 | Copy required | Not yet collected | — | ⬜ CONDITION |
+| OFAC / embargoed countries | Not sanctioned | China not on embargo list | — | ✅ PASS |
+| 1st Time Homebuyer 5% LTV hit | Applies? | Waived for Foreign Nationals | — | ✅ N/A |
+| Prepayment penalty | Hard PPP, 5yr, starts at 5% | Borrower not yet consulted | — | ⬜ TBD |
+| ACH auto-payment | Required, US bank | BofA available (unverified) | — | ⬜ CONDITION |
+
+## The file
+### Loan
+Purpose: purchase — clients/zx/client.yaml
+Loan amount: $750,000 — clients/zx/client.yaml
+Stage: lead — clients/zx/client.yaml
+Location: North Seattle (Green Lake / Northgate area), no specific property under contract — clients/zx/PROFILE.md (2026-07-31)
+Occupancy: investment (rent out until child comes for US school) — clients/zx/PROFILE.md (2026-07-31)
+Target program: iTrust Foreign National DSCR (Strong inference) — clients/zx/PROFILE.md (2026-07-31); analyst:eligibility-analyzer
+
+### Borrowers
+zx · borrower · foreign_national (China, Hangzhou) · salaried employee in China — clients/zx/client.yaml; clients/zx/PROFILE.md (2026-07-31)
+
+### Income
+Qualifying income: $0 — DSCR loan, qualifies on property market rent not personal income. No income documents on file, borrower prefers not to document overseas income. — analyst:income-analyzer; clients/zx/PROFILE.md (2026-07-31)
+
+### Credit
+FICO: none — no US credit history, no credit report on file. iTrust FN DSCR waives credit report requirement for foreign nationals. No tradelines, no documented monthly obligations. Alternative credit may be needed. — analyst:credit-analyzer; clients/zx/PROFILE.md (2026-07-31)
+
+### Assets
+Verified liquid: $0 — no bank statements on file. — analyst:asset-analyzer
+Unverified claim: ~$300,000 at Bank of America, on deposit since early 2025. Planned allocation: $250,000 down payment, remainder for closing costs and reserves. At 70% max LTV with $750K loan, down payment alone would be ~$321K — exceeding total claimed assets before closing costs. — clients/zx/PROFILE.md (2026-07-31); analyst:asset-analyzer
+Verdict: insufficient (unverified) — analyst:asset-analyzer
+
+### Ratios
+Front-end DTI: N/A — DSCR loan, not income-based — calc:dti-calculator
+Back-end DTI: N/A — DSCR loan, no documented debts — calc:dti-calculator
+LTV: 75.0% (at $1M purchase), CLTV: 75.0% — calc:ltv-cltv
+Target LTV (70% to comply): purchase price $1,071,429 with $321,429 down — calc:ltv-cltv
+PITIA: $6,194.11/mo (P&I $5,244.11 + tax $800 + insurance $150) — calc:payment-calculator
+Note: PMI not required (LTV below 80%) — calc:payment-calculator
+
+### Property
+Type: single-family home — clients/zx/PROFILE.md (2026-07-31)
+Purchase price: intake says ~$7,500,000 but $750K/75% LTV math yields ~$1,000,000 — near-certain typo, confirm with borrower — clients/zx/PROFILE.md (2026-07-31) (inferred)
+Appraisal status: not ordered — no property identified — analyst:doc-checklist
+
+### Documents on file
+ai: .gitkeep, profile.ai, untitled.txt, untitled(1).txt
+assets: .gitkeep
+credit: .gitkeep
+income: .gitkeep
+za: 111.md, Amazon EC2 Instance Comparison.csv, b9f0cdd10ea179418dc5748e766215b782d5fe.jpg, untitled.txt, URLA-2019-Borrower-v28.pdf
+root: PROFILE.md, client.yaml, untitled.txt, untitled(1).txt
+
+### Context
+- **2026-07-31** — Intake call: Zhixiang is a Chinese national in Hangzhou, ~$300K at BofA since early 2025, wants to buy SFH in North Seattle for investment. Long-term plan: child will live there during US schooling. No US credit history. Prefers DSCR route to avoid documenting Chinese income. — clients/zx/PROFILE.md
+- **2026-08-12** — Five untitled.txt/untitled(1).txt files arrived across the client folder. All contain internal MortgageWork development notes (paste-to-file feature workflow description, Vue component tree fix, and a Chinese-language product-direction discussion). None contain client loan data — they are artifacts of testing the LO's copy-paste-to-folder workflow. — clients/zx/untitled.txt, clients/zx/untitled(1).txt, clients/zx/ai/untitled.txt, clients/zx/ai/untitled(1).txt, clients/zx/za/untitled.txt (2026-08-12)
+- **2026-08-12** — za/untitled.txt describes the exact paste-to-file → git commit → clerk tick pipeline that produced these files: "LO copies text, selects folder in tree, Ctrl+V → untitled.txt → queue_sync → git commit → clerk next tick reads new file → auto-updates profile.ai." This confirms all five untitled files are paste artifacts, not loan documents. — clients/zx/za/untitled.txt (2026-08-12)
+- Purchase price $7.5M in intake notes is almost certainly a typo: $750K / 75% LTV = $1M, and $250K down on $1M = 25% = 75% LTV. Both internal consistencies point to ~$1M target. — clients/zx/PROFILE.md (inferred)
