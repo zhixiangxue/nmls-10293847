@@ -1,0 +1,1 @@
+现在 LO 在任何地方 copy 一段文字，选中 tree 里的任意文件夹，Ctrl+V / Cmd+V 就直接落盘成一个 .txt 文件。连续 paste 同一个目录不会覆盖，自动 untitled.txt → untitled(1).txt → untitled(2).txt。落盘后 → queue_sync → git commit → clerk 下次 tick 读到新文件 → 自动更新 profile.ai。整条链路已经通了。
