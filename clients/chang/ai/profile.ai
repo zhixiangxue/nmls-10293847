@@ -1,87 +1,160 @@
 # chang — clerk
 
-> Maintained by clerk · as of efe242d · 2026-08-11
+> Maintained by clerk · as of 031f036 · 2026-08-12
 > Verifiable facts with sources; this is the single source of truth for client knowledge.
 
 ## Needs attention
-- The credit analysis tool encountered an error and could not process the credit report. Manual review or external consultation is needed for credit verification. — clients/chang/4-credit/credit-report.pdf
-- Clarify and confirm borrower's identity due to inconsistencies. Review the intake notes to ensure correct identity information. — clients/chang/6-notes/intake-call-0806.txt (2026-08-06)
-- Address significant asset gap: An additional $44,700 is needed to meet closing and reserve requirements. Consider liquidating brokerage holdings but beware of tax implications. — analyst:asset-analyzer
+- Asset gap: personal accounts ($117K) fall $16,130 short of closing + reserves ($133,130). Business checking ($48K) bridges the gap but requires a CPA letter confirming the withdrawal won't harm the business, the business checking statement, and UW approval to apply toward down payment. — analyst:asset-analyzer
+- Large deposit: $8,083 owner draw on Chase personal statement (7/15) must be sourced via business checking statement. — clients/chang/3-assets/chase-personal-2026-07.pdf
+- 1099 IRS Tax Transcripts are a program requirement — not yet ordered. — products/itrust/Special Alt Doc 04.27.26.pdf
+- WVOE + YTD payment statements needed from all 3 contract employers (Insight Global/Microsoft, Kelly Services/Amazon, direct clients). — products/itrust/Special Alt Doc 04.27.26.pdf
 
 ## Status snapshot
-Lead stage, program fit: Non-QM 1099 Income (Explicit), submission readiness: 3 items block submission, 1 to verify.
+Lead stage, program fit: iTrust Special Alt Doc Option 2: 1099 (Explicit — confirmed by eligibility analysis against program guidelines), submission readiness: 4 items block submission, 3 to verify.
 
 ## Open items
 ### Blocks submission
-- Manual credit report review required due to tool error. — clients/chang/4-credit/credit-report.pdf
-- Borrower's identity discrepancies need confirmation against intake records. — clients/chang/6-notes/intake-call-0806.txt
-- Assets are insufficient; a significant financial gap exists which needs addressing for closing readiness. — analyst:asset-analyzer
+- Business checking statement needed to verify $48,000 balance and source the $8,083 owner draw. — analyst:asset-analyzer
+- CPA letter required confirming (a) 2-year history of 1099 income in same line of work, and (b) that withdrawal of business funds for down payment won't harm the business. — products/itrust/Special Alt Doc 04.27.26.pdf & analyst:asset-analyzer
+- 1099 IRS Tax Transcripts must be ordered — program requirement. — products/itrust/Special Alt Doc 04.27.26.pdf (p.8)
+- WVOE + YTD earnings verification from each contract employer. — products/itrust/Special Alt Doc 04.27.26.pdf (p.8)
 
 ### Required before close
-- None.
+- Appraisal — not yet ordered. — clients/chang/ai/profile.ai
+- Title commitment — not yet received. — analyst:doc-checklist
+- Insurance binder — not yet received. — analyst:doc-checklist
+- EMD receipt — $8,000 per URLA, receipt not on file. — clients/chang/URLA-2019-Borrower-v28.filled.pdf
+- Vanguard liquidation evidence — $95K in ETFs must be sold for down payment. — analyst:asset-analyzer
 
 ### To verify
-- Confirm identity details considering potential inconsistencies with conversation memory. — clients/chang/6-notes/intake-call-0806.txt (2026-08-06)
+- YTD earnings from WVOE: if lower than the $145K most-recent-1099 figure, qualifying income adjusts down per program guidelines. — products/itrust/Special Alt Doc 04.27.26.pdf (p.8)
+- Property tax reassessment: SD County will reassess at purchase price post-year-1; current $6,325/yr may rise to ~$6,900/yr. — calc:payment-analyzer
+- 12-month rent payment history: only required if switching to iTrust Fast & Easy (which has a FTHB restriction capping 70% LTV without it). — analyst:eligibility-analyzer
 
 ## Document checklist
 ### Identity
 - [x] Driver license — clients/chang/1-identity/driver-license.pdf
-- [ ] SSN verification — not yet received
+- [x] Business license — clients/chang/1-identity/business-license.pdf
+- [ ] SSN verification (separate document) — SSN on URLA but no standalone verification on file. — clients/chang/URLA-2019-Borrower-v28.filled.pdf
 
 ### Income
-- [x] 1099-NEC Forms (Amazon, Microsoft, others) — clients/chang/2-income/
-- [x] CPA Profit & Loss Statement — clients/chang/2-income/cpa-profit-loss.pdf
-- [ ] Bank deposits verification for 1099 income — not yet received
+- [x] 1099-NEC Amazon 2025 — clients/chang/2-income/1099-nec-amazon-2025.pdf
+- [x] 1099-NEC Microsoft 2025 — clients/chang/2-income/1099-nec-microsoft-2025.pdf
+- [x] 1099-NEC Direct Clients 2025 — clients/chang/2-income/1099-nec-others-2025.pdf
+- [x] 1099 Summary 2024 — clients/chang/2-income/1099-summary-2024.pdf
+- [x] CPA Profit & Loss — clients/chang/2-income/cpa-profit-loss.pdf
+- [ ] 1099 IRS Tax Transcripts — program requirement, not yet ordered. — products/itrust/Special Alt Doc 04.27.26.pdf
+- [ ] WVOE / YTD statements from Insight Global (Microsoft placement) — not yet received
+- [ ] WVOE / YTD statements from Kelly Services (Amazon placement) — not yet received
+- [ ] WVOE / YTD statements from direct clients (Qualcomm, Sony) — not yet received
+- [ ] Licensed Tax Preparer letter confirming 2-year 1099 history — may be covered by CPA P&L letter; verify if separate letter needed
 
 ### Assets
-- [x] Chase personal bank statements showing deposits — clients/chang/3-assets/chase-personal-2026-07.pdf
-- [x] Vanguard brokerage statement — clients/chang/3-assets/vanguard-brokerage-2026-06.pdf
+- [x] Chase personal checking (07/2026) — clients/chang/3-assets/chase-personal-2026-07.pdf
+- [x] Vanguard brokerage (06/2026) — clients/chang/3-assets/vanguard-brokerage-2026-06.pdf
+- [ ] Chase business checking statement — balance $48K per URLA, not on file. — clients/chang/URLA-2019-Borrower-v28.filled.pdf
+- [ ] CPA letter confirming business withdrawal won't harm business — not yet received. — products/itrust/Special Alt Doc 04.27.26.pdf & analyst:asset-analyzer
+- [ ] EMD receipt ($8,000) — not yet received
 
 ### Credit
-- [x] Credit report (manual review required) — clients/chang/4-credit/credit-report.pdf
+- [x] Credit report — clients/chang/4-credit/credit-report.pdf
 
 ### Property
 - [x] Property disclosure — clients/chang/5-property/property-disclosure.pdf
 - [x] Purchase contract — clients/chang/5-property/purchase-contract.pdf
-- [ ] Property appraisal — not yet received
+- [ ] Appraisal — not yet ordered
+- [ ] Title commitment — not yet received
+
+### Application
+- [x] URLA (filled, unsigned) — clients/chang/URLA-2019-Borrower-v28.filled.pdf
 
 ## Program compliance
-### Non-QM 1099 Program
+### iTrust Special Alt Doc — Option 2: 1099
+Guideline: products/itrust/Special Alt Doc 04.27.26.pdf
+
 Requirement | Required | Actual | Margin | Status
 --- | --- | --- | --- | ---
-LTV | ≤ 80% | 80% | met | Pass
-Back-end DTI | ≤ 50% | 40.71% | Pass | Pass
-Income Verification | Yes | CPA P&L provided | n/a | Pass
+Min FICO | 680 | 738 | +58 | ✅ Pass
+Max LTV (Purchase, SFR) | 80% | 80% | 0% | ✅ Pass
+Max DTI | 50% | 40.45% | +9.55% | ✅ Pass
+Reserves (PITIA) | 3 months | $11,130 needed; ~$43K available after DP/CC (with business) | +$32K | ✅ Pass
+Trade lines | 3×12mo or 2×24mo | 4 tradelines, all >12mo | — | ✅ Pass
+First-time homebuyer | Allowed | Yes | — | ✅ Pass
+Credit events | None | None (clean file) | — | ✅ Pass
+Citizenship | US Citizen | US Citizen | — | ✅ Pass
+Property type | SFR allowed | SFR, 1 unit | — | ✅ Pass
+1099 Tax Transcripts | Required | Not yet ordered | — | ⚠️ Pending
+WVOE / YTD verification | Required | Not yet received | — | ⚠️ Pending
+CPA letter (2-yr history) | Required | Partially on file (CPA P&L) | — | ⚠️ Verify
 
 ## The file
 ### Loan
-Purpose: purchase · Loan amount: $460,000 · Stage: lead · Location: San Diego, CA · Occupancy: primary residence · Target program: Non-QM 1099 Income
+Purpose: purchase · Loan amount: $460,000 · Stage: lead · Location: 4827 Madison Ave, San Diego, CA 92115, San Diego County · Occupancy: primary residence · Target program: iTrust Special Alt Doc Option 2: 1099 — products/itrust/Special Alt Doc 04.27.26.pdf
 
 ### Borrowers
-Robert James Chang · borrower · US citizen · IT contractor (self-employed)
+Robert James Chang · borrower · US citizen · self-employed IT contractor (Cloud Infrastructure Consultant) · DOB 11/03/1986 (age 39) · Unmarried (Single), 0 dependents · current address: 3812 Ulric St, San Diego, CA 92111 (3 years, renting) — clients/chang/URLA-2019-Borrower-v28.filled.pdf
 
 ### Income
-Qualifying income: $10,125/mo — using CPA-verified actual expenses rather than standard expense factor.
+**Qualifying income: $10,875/mo** — using iTrust Special Alt Doc Option 2 method: most recent year 1099 gross $145,000 minus 10% fixed expense factor = $130,500/yr.
+
+Calculation chain:
+- 2025 1099s: Insight Global $85K + Kelly Services $42K + direct clients $18K = $145,000 gross — clients/chang/2-income/1099-nec-amazon-2025.pdf, clients/chang/2-income/1099-nec-microsoft-2025.pdf, clients/chang/2-income/1099-nec-others-2025.pdf
+- Program expense factor: 10% (not CPA P&L actual expenses, not 25% standard) — products/itrust/Special Alt Doc 04.27.26.pdf (p.8)
+- $145,000 × 0.90 = $130,500/yr = $10,875/mo — analyst:income-analyzer
+- CPA P&L actual expenses yield $10,125/mo (backup method; superseded by program's 10% factor which is more favorable) — clients/chang/2-income/cpa-profit-loss.pdf
+- Income trending up +9.8% YoY (2024: $132K → 2025: $145K) — analyst:income-analyzer
+- YTD may adjust income downward if WVOE shows lower earnings — products/itrust/Special Alt Doc 04.27.26.pdf (p.8)
 
 ### Credit
-Unknown due to tool error — manual review needed of clients/chang/4-credit/credit-report.pdf
+FICO: Experian 741 / Equifax 738 / TransUnion 735 → qualifying 738 (median). Clean file: no collections, no public records, no late payments, 1 hard inquiry (auto refinance, 2025). 4 tradelines: Toyota Financial $450/mo, Sallie Mae $200/mo, Chase Freedom $40/mo, Amex Blue $0/mo — all current, all match URLA. Amex Blue is a charge card paid in full monthly — excluded from DTI. Total monthly debt: $690. — analyst:credit-analyzer
 
 ### Assets
-Insufficient, with a significant gap in liquid reserves noted. Additional documentation or asset liquidation is necessary. — analyst:asset-analyzer
+**Insufficient with conditions.** 
+
+Personal: Chase checking $22,000 + Vanguard brokerage $95,000 = $117,000 — clients/chang/3-assets/chase-personal-2026-07.pdf, clients/chang/3-assets/vanguard-brokerage-2026-06.pdf. Business: Chase business checking $48,000 per URLA, no statement on file — clients/chang/URLA-2019-Borrower-v28.filled.pdf.
+
+| Requirement | Amount |
+|---|---|
+| Down payment (20%) | $115,000 |
+| Closing costs (est.) | $15,000 |
+| Earnest money (already paid) | ($8,000) |
+| **Net cash to close** | **$122,000** |
+| Reserves (3 mo × $3,708.96) | $11,130 |
+| **Total required** | **$133,130** |
+
+| Scenario | Available | Gap |
+|---|---|---|
+| Personal accounts only | $117,000 | −$16,130 |
+| Including business checking | $165,000 | +$31,870 |
+
+Business funds require: (a) CPA letter confirming withdrawal won't harm business, (b) business checking statement to verify $48K and source the $8,083 owner draw on 7/15, (c) UW approval for business funds toward down payment. — analyst:asset-analyzer
 
 ### Ratios
-Front-end DTI 35%, Back-end DTI 40.71% — calc:dtianalyzer; Total monthly payment aligned with program constraints.
+| Metric | Value |
+|---|---|
+| PITIA | $3,708.96/mo — calc:payment-analyzer |
+| Front-end DTI | 34.10% ($3,708.96 / $10,875) |
+| Back-end DTI | 40.45% (($3,708.96 + $690) / $10,875) |
+| LTV | 80.00% — calc:ltvcltv-analyzer |
+| CLTV | 80.00% — calc:ltvcltv-analyzer |
+| PMI | Not required |
+
+PITIA breakdown: P&I $3,021.87 + tax $527.08 + insurance $160.00 + HOA $0 — calc:payment-analyzer. Note: property tax based on 2025 assessment of $6,325/yr; SD County will reassess at purchase price post-year-1 (~$6,900/yr). — calc:payment-analyzer
 
 ### Property
-Type: SFR, Purchase price: $575,000, Appraisal: pending
+Type: SFR, 3/2, 1,850 sqft, remodeled 1962, 1 unit · Purchase price: $575,000 · Appraisal: not yet ordered · Address: 4827 Madison Ave, San Diego, CA 92115 — clients/chang/5-property/purchase-contract.pdf, clients/chang/6-notes/intake-call-0806.txt (2026-08-06)
 
 ### Documents on file
 - Identity: business-license.pdf, driver-license.pdf
-- Income: list of 1099s, cpa-profit-loss.pdf
+- Income: 1099-nec-amazon-2025.pdf, 1099-nec-microsoft-2025.pdf, 1099-nec-others-2025.pdf, 1099-summary-2024.pdf, cpa-profit-loss.pdf
 - Assets: chase-personal-2026-07.pdf, vanguard-brokerage-2026-06.pdf
 - Credit: credit-report.pdf
 - Property: property-disclosure.pdf, purchase-contract.pdf
+- Application: URLA-2019-Borrower-v28.filled.pdf (filled, unsigned), URLA-2019-Borrower-v28.pdf (blank)
 - Notes: intake-call-0806.txt
 
 ### Context
-As per the intake call on 2026-08-06, Robert James Chang is focusing on a Non-QM loan. Using a CPA P&L for income calculation is prioritized to optimize the DTI ratio. — notes/intake-call-0806.txt (2026-08-06)
+- Intake call 2026-08-06: Loan officer explicitly wants CPA P&L actual-expense method used for income. However, the iTrust Special Alt Doc Option 2: 1099 program uses a flat 10% expense factor on gross 1099 receipts, which actually yields a higher qualifying income ($10,875 vs $10,125). Officer should be made aware that the program's own formula is more favorable than CPA P&L. — clients/chang/6-notes/intake-call-0806.txt (2026-08-06) & products/itrust/Special Alt Doc 04.27.26.pdf
+- Robert is a first-time homebuyer, currently renting in Clairemont area, looking to purchase in College Area. — clients/chang/6-notes/intake-call-0806.txt (2026-08-06)
+- URLA is filled and on file but not yet signed. SSN, DOB, employer details, assets, and liabilities all confirmed. All declarations (bankruptcies, foreclosures, judgments, etc.) answered NO. — clients/chang/URLA-2019-Borrower-v28.filled.pdf
+- Previous identity-discrepancy concern from old profile is resolved: "Robert James Chang" is consistent across all documents including URLA, credit report, and intake notes. — clients/chang/URLA-2019-Borrower-v28.filled.pdf
