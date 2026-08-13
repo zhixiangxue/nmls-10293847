@@ -1,35 +1,38 @@
 # chang — clerk
 
-> Maintained by clerk · as of 031f036 · 2026-08-12
+> Maintained by clerk · as of 2026-08-13 (updated with 08/13 intake update)
 > Verifiable facts with sources; this is the single source of truth for client knowledge.
 
 ## Needs attention
-- Asset gap: personal accounts ($117K) fall $16,130 short of closing + reserves ($133,130). Business checking ($48K) bridges the gap but requires a CPA letter confirming the withdrawal won't harm the business, the business checking statement, and UW approval to apply toward down payment. — analyst:asset-analyzer
-- Large deposit: $8,083 owner draw on Chase personal statement (7/15) must be sourced via business checking statement. — clients/chang/3-assets/chase-personal-2026-07.pdf
+- Income method lock: LO instructed "Lock Income Method: CPA P&L Actual Expenses" ($121,500/yr → 43.1% DTI) to prevent AUS defaulting to a standard factor. Note the iTrust program's own 10% factor is actually more favorable ($130,500/yr → 40.45% DTI); both pass the 50% cap, but a 25% standard factor would fail at 50.4%. — clients/chang/6-notes/intake-update-0813.txt
+- Vanguard liquidation: $115K VTSAX sale initiated 08/13; verify settlement + sweep to personal checking and upload sale confirmation/updated statement. June statement on file shows only $95K → $20K discrepancy to resolve with updated proof of funds. — clients/chang/6-notes/intake-update-0813.txt
 - 1099 IRS Tax Transcripts are a program requirement — not yet ordered. — products/itrust/Special Alt Doc 04.27.26.pdf
 - WVOE + YTD payment statements needed from all 3 contract employers (Insight Global/Microsoft, Kelly Services/Amazon, direct clients). — products/itrust/Special Alt Doc 04.27.26.pdf
+- Appraisal: inspection completed 08/12, final report pending. Verify "Actual Age" vs "Effective Age" so the 2019 remodel is properly weighted. — clients/chang/6-notes/intake-update-0813.txt
 
 ## Status snapshot
-Lead stage, program fit: iTrust Special Alt Doc Option 2: 1099 (Explicit — confirmed by eligibility analysis against program guidelines), submission readiness: 4 items block submission, 3 to verify.
+Lead stage, program fit: iTrust Special Alt Doc Option 2: 1099 (Explicit — confirmed by eligibility analysis against program guidelines). Appraisal inspection done (08/12), final report pending. Income method locked to CPA P&L actual expenses per LO. Submission readiness: 3 items block submission, 4 to verify. On track for 30-day close per LO; primary risk is income calculation method.
 
 ## Open items
 ### Blocks submission
-- Business checking statement needed to verify $48,000 balance and source the $8,083 owner draw. — analyst:asset-analyzer
-- CPA letter required confirming (a) 2-year history of 1099 income in same line of work, and (b) that withdrawal of business funds for down payment won't harm the business. — products/itrust/Special Alt Doc 04.27.26.pdf & analyst:asset-analyzer
 - 1099 IRS Tax Transcripts must be ordered — program requirement. — products/itrust/Special Alt Doc 04.27.26.pdf (p.8)
 - WVOE + YTD earnings verification from each contract employer. — products/itrust/Special Alt Doc 04.27.26.pdf (p.8)
+- Business checking statement needed to source the $8,083 owner draw on 7/15 (and verify $48K balance if business funds are used). — analyst:asset-analyzer
+- CPA letter confirming 2-year history of 1099 income in same line of work — expense-breakdown letter received 08/13, but verify whether the 2-year-history statement is covered or still needed. — products/itrust/Special Alt Doc 04.27.26.pdf & analyst:asset-analyzer
 
 ### Required before close
-- Appraisal — not yet ordered. — clients/chang/ai/profile.ai
+- Appraisal report — inspection completed 08/12, final report pending. — clients/chang/6-notes/intake-update-0813.txt
 - Title commitment — not yet received. — analyst:doc-checklist
 - Insurance binder — not yet received. — analyst:doc-checklist
 - EMD receipt — $8,000 per URLA, receipt not on file. — clients/chang/URLA-2019-Borrower-v28.filled.pdf
-- Vanguard liquidation evidence — $95K in ETFs must be sold for down payment. — analyst:asset-analyzer
+- Vanguard liquidation evidence — $115K VTSAX sale initiated 08/13; confirmation statement + updated statement once funds settle/sweep. — clients/chang/6-notes/intake-update-0813.txt
 
 ### To verify
 - YTD earnings from WVOE: if lower than the $145K most-recent-1099 figure, qualifying income adjusts down per program guidelines. — products/itrust/Special Alt Doc 04.27.26.pdf (p.8)
+- Vanguard balance: June statement shows $95K but $115K is being liquidated — confirm current balance/sale proceeds with updated statement. — clients/chang/3-assets/vanguard-brokerage-2026-06.pdf
 - Property tax reassessment: SD County will reassess at purchase price post-year-1; current $6,325/yr may rise to ~$6,900/yr. — calc:payment-analyzer
 - 12-month rent payment history: only required if switching to iTrust Fast & Easy (which has a FTHB restriction capping 70% LTV without it). — analyst:eligibility-analyzer
+- Appraisal Actual Age vs Effective Age (2019 remodel weighting). — clients/chang/6-notes/intake-update-0813.txt
 
 ## Document checklist
 ### Identity
@@ -42,18 +45,19 @@ Lead stage, program fit: iTrust Special Alt Doc Option 2: 1099 (Explicit — con
 - [x] 1099-NEC Microsoft 2025 — clients/chang/2-income/1099-nec-microsoft-2025.pdf
 - [x] 1099-NEC Direct Clients 2025 — clients/chang/2-income/1099-nec-others-2025.pdf
 - [x] 1099 Summary 2024 — clients/chang/2-income/1099-summary-2024.pdf
-- [x] CPA Profit & Loss — clients/chang/2-income/cpa-profit-loss.pdf
+- [x] CPA Profit & Loss — clients/chang/2-income/cpa-profit-loss.pdf — finalized 08/13 with CPA letter breaking down home office allocation, software/licensing, professional liability insurance (satisfies "verifiable business necessity")
 - [ ] 1099 IRS Tax Transcripts — program requirement, not yet ordered. — products/itrust/Special Alt Doc 04.27.26.pdf
 - [ ] WVOE / YTD statements from Insight Global (Microsoft placement) — not yet received
 - [ ] WVOE / YTD statements from Kelly Services (Amazon placement) — not yet received
 - [ ] WVOE / YTD statements from direct clients (Qualcomm, Sony) — not yet received
-- [ ] Licensed Tax Preparer letter confirming 2-year 1099 history — may be covered by CPA P&L letter; verify if separate letter needed
+- [ ] Licensed Tax Preparer letter confirming 2-year 1099 history — verify if covered by finalized CPA P&L letter or separate letter needed
 
 ### Assets
 - [x] Chase personal checking (07/2026) — clients/chang/3-assets/chase-personal-2026-07.pdf
-- [x] Vanguard brokerage (06/2026) — clients/chang/3-assets/vanguard-brokerage-2026-06.pdf
-- [ ] Chase business checking statement — balance $48K per URLA, not on file. — clients/chang/URLA-2019-Borrower-v28.filled.pdf
-- [ ] CPA letter confirming business withdrawal won't harm business — not yet received. — products/itrust/Special Alt Doc 04.27.26.pdf & analyst:asset-analyzer
+- [x] Vanguard brokerage (06/2026) — clients/chang/3-assets/vanguard-brokerage-2026-06.pdf (shows $95K; $115K VTSAX sale initiated 08/13)
+- [ ] Vanguard sale confirmation + updated statement (proof of funds) — sale initiated 08/13; funds to personal checking by early next week. — clients/chang/6-notes/intake-update-0813.txt
+- [ ] Chase business checking statement — balance $48K per URLA, not on file; needed to source $8,083 owner draw. — clients/chang/URLA-2019-Borrower-v28.filled.pdf
+- [ ] CPA letter confirming business withdrawal won't harm business — only needed if business funds used; moot for shortfall once Vanguard settles. — products/itrust/Special Alt Doc 04.27.26.pdf & analyst:asset-analyzer
 - [ ] EMD receipt ($8,000) — not yet received
 
 ### Credit
@@ -62,7 +66,7 @@ Lead stage, program fit: iTrust Special Alt Doc Option 2: 1099 (Explicit — con
 ### Property
 - [x] Property disclosure — clients/chang/5-property/property-disclosure.pdf
 - [x] Purchase contract — clients/chang/5-property/purchase-contract.pdf
-- [ ] Appraisal — not yet ordered
+- [ ] Appraisal — ordered; inspection completed 08/12, final report pending. — clients/chang/6-notes/intake-update-0813.txt
 - [ ] Title commitment — not yet received
 
 ### Application
@@ -76,8 +80,8 @@ Requirement | Required | Actual | Margin | Status
 --- | --- | --- | --- | ---
 Min FICO | 680 | 738 | +58 | ✅ Pass
 Max LTV (Purchase, SFR) | 80% | 80% | 0% | ✅ Pass
-Max DTI | 50% | 40.45% | +9.55% | ✅ Pass
-Reserves (PITIA) | 3 months | $11,130 needed; ~$43K available after DP/CC (with business) | +$32K | ✅ Pass
+Max DTI | 50% | 43.1% (locked CPA P&L method) | +6.9% | ✅ Pass
+Reserves (PITIA) | 3 months | $11,130 needed; ~$137K personal after Vanguard liquidation | +$3.9K vs total cash needed | ✅ Pass
 Trade lines | 3×12mo or 2×24mo | 4 tradelines, all >12mo | — | ✅ Pass
 First-time homebuyer | Allowed | Yes | — | ✅ Pass
 Credit events | None | None (clean file) | — | ✅ Pass
@@ -85,33 +89,48 @@ Citizenship | US Citizen | US Citizen | — | ✅ Pass
 Property type | SFR allowed | SFR, 1 unit | — | ✅ Pass
 1099 Tax Transcripts | Required | Not yet ordered | — | ⚠️ Pending
 WVOE / YTD verification | Required | Not yet received | — | ⚠️ Pending
-CPA letter (2-yr history) | Required | Partially on file (CPA P&L) | — | ⚠️ Verify
+CPA letter (2-yr history) | Required | Expense-breakdown letter received 08/13 | — | ⚠️ Verify
+
+Note: DTI is 43.1% under the LO-locked CPA P&L actual-expense method ($121,500/yr). The program's own 10% expense factor on most-recent-year 1099 yields $130,500/yr → 40.45% DTI (more favorable). A 25% standard factor would yield $103,875/yr → 50.4% (fail).
 
 ## The file
 ### Loan
-Purpose: purchase · Loan amount: $460,000 · Stage: lead · Location: 4827 Madison Ave, San Diego, CA 92115, San Diego County · Occupancy: primary residence · Target program: iTrust Special Alt Doc Option 2: 1099 — products/itrust/Special Alt Doc 04.27.26.pdf
+Purpose: purchase · Loan amount: $460,000 · Stage: lead · Location: 4827 Madison Ave, San Diego, CA 92115, San Diego County · Occupancy: primary residence · Target program: iTrust Special Alt Doc Option 2: 1099 — products/itrust/Special Alt Doc 04.27.26.pdf · Rate: 6.875% 30-yr fixed, Non-QM 1099 Income — clients/chang/6-notes/intake-update-0813.txt
 
 ### Borrowers
 Robert James Chang · borrower · US citizen · self-employed IT contractor (Cloud Infrastructure Consultant) · DOB 11/03/1986 (age 39) · Unmarried (Single), 0 dependents · current address: 3812 Ulric St, San Diego, CA 92111 (3 years, renting) — clients/chang/URLA-2019-Borrower-v28.filled.pdf
 
 ### Income
-**Qualifying income: $10,875/mo** — using iTrust Special Alt Doc Option 2 method: most recent year 1099 gross $145,000 minus 10% fixed expense factor = $130,500/yr.
+**Qualifying income: $10,125/mo (LOCKED)** — CPA P&L actual-expense method per LO lock 08/13: 2-yr avg gross $138,500 − $17,000 actual expenses = $121,500/yr.
+
+Method comparison (the decisive variable for this file):
+
+| Method | Income/yr | Income/mo | Back-end DTI | 50% cap | Result |
+|---|---|---|---|---|---|
+| CPA P&L actual expenses (LOCKED 08/13) | $121,500 | $10,125 | 43.1% | 50% | ✅ Pass |
+| iTrust program 10% factor (most-recent yr) | $130,500 | $10,875 | 40.45% | 50% | ✅ Pass (most favorable) |
+| 25% standard factor (AUS default risk) | $103,875 | $8,656 | 50.4% | 50% | ❌ Fail |
 
 Calculation chain:
 - 2025 1099s: Insight Global $85K + Kelly Services $42K + direct clients $18K = $145,000 gross — clients/chang/2-income/1099-nec-amazon-2025.pdf, clients/chang/2-income/1099-nec-microsoft-2025.pdf, clients/chang/2-income/1099-nec-others-2025.pdf
-- Program expense factor: 10% (not CPA P&L actual expenses, not 25% standard) — products/itrust/Special Alt Doc 04.27.26.pdf (p.8)
-- $145,000 × 0.90 = $130,500/yr = $10,875/mo — analyst:income-analyzer
-- CPA P&L actual expenses yield $10,125/mo (backup method; superseded by program's 10% factor which is more favorable) — clients/chang/2-income/cpa-profit-loss.pdf
-- Income trending up +9.8% YoY (2024: $132K → 2025: $145K) — analyst:income-analyzer
+- 2024 1099 summary: $132,000 gross — clients/chang/2-income/1099-summary-2024.pdf. 2-yr avg gross = $138,500.
+- CPA P&L: ~$17,000 actual annual business expenses; finalized 08/13 with breakdown of home office allocation, software/licensing, professional liability insurance — satisfies "verifiable business necessity." — clients/chang/2-income/cpa-profit-loss.pdf, clients/chang/6-notes/intake-update-0813.txt
+- $138,500 − $17,000 = $121,500/yr = $10,125/mo — LOCKED method per LO. — clients/chang/6-notes/intake-update-0813.txt
+- Program's own formula (iTrust Option 2): 10% factor on most-recent-year 1099 → $145,000 × 0.90 = $130,500/yr = $10,875/mo — more favorable than CPA P&L; both pass. — products/itrust/Special Alt Doc 04.27.26.pdf (p.8)
+- 25% standard factor would fail: $138,500 × 0.75 = $103,875/yr → 50.4% DTI. LO locked CPA P&L method to prevent AUS defaulting to this. — clients/chang/6-notes/intake-update-0813.txt
+- Income trending up +9.8% YoY (2024: $132K → 2025: $145K). — analyst:income-analyzer
 - YTD may adjust income downward if WVOE shows lower earnings — products/itrust/Special Alt Doc 04.27.26.pdf (p.8)
 
 ### Credit
 FICO: Experian 741 / Equifax 738 / TransUnion 735 → qualifying 738 (median). Clean file: no collections, no public records, no late payments, 1 hard inquiry (auto refinance, 2025). 4 tradelines: Toyota Financial $450/mo, Sallie Mae $200/mo, Chase Freedom $40/mo, Amex Blue $0/mo — all current, all match URLA. Amex Blue is a charge card paid in full monthly — excluded from DTI. Total monthly debt: $690. — analyst:credit-analyzer
+No changes per 08/13 update. No pending large purchases before closing; borrower advised to keep credit card usage low. — clients/chang/6-notes/intake-update-0813.txt
 
 ### Assets
-**Insufficient with conditions.** 
+**Sufficient once Vanguard liquidation settles (personal accounts only).**
 
-Personal: Chase checking $22,000 + Vanguard brokerage $95,000 = $117,000 — clients/chang/3-assets/chase-personal-2026-07.pdf, clients/chang/3-assets/vanguard-brokerage-2026-06.pdf. Business: Chase business checking $48,000 per URLA, no statement on file — clients/chang/URLA-2019-Borrower-v28.filled.pdf.
+- Chase checking $22,000 (07/2026) — clients/chang/3-assets/chase-personal-2026-07.pdf
+- Vanguard brokerage: $115,000 VTSAX sale initiated 08/13 (2-day settlement; funds to personal checking by early next week). June statement on file shows $95K. — clients/chang/3-assets/vanguard-brokerage-2026-06.pdf, clients/chang/6-notes/intake-update-0813.txt
+- Business: Chase business checking $48,000 per URLA, no statement on file — not required for shortfall once Vanguard settles, but still needed to source the $8,083 owner draw. — clients/chang/URLA-2019-Borrower-v28.filled.pdf
 
 | Requirement | Amount |
 |---|---|
@@ -124,17 +143,18 @@ Personal: Chase checking $22,000 + Vanguard brokerage $95,000 = $117,000 — cli
 
 | Scenario | Available | Gap |
 |---|---|---|
-| Personal accounts only | $117,000 | −$16,130 |
-| Including business checking | $165,000 | +$31,870 |
+| Personal accounts (post-liquidation) | ~$137,000 | +$3,870 ✅ |
+| Personal accounts (June statements) | $117,000 | −$16,130 |
 
-Business funds require: (a) CPA letter confirming withdrawal won't harm business, (b) business checking statement to verify $48K and source the $8,083 owner draw on 7/15, (c) UW approval for business funds toward down payment. — analyst:asset-analyzer
+⚠️ Flag: June Vanguard statement shows $95K but $115K is being liquidated (+$20K) — verify with updated statement + sale confirmation. CPA letter re: business withdrawal no longer needed for the shortfall, only if business funds are used. — analyst:asset-analyzer, clients/chang/6-notes/intake-update-0813.txt
 
 ### Ratios
 | Metric | Value |
 |---|---|
 | PITIA | $3,708.96/mo — calc:payment-analyzer |
-| Front-end DTI | 34.10% ($3,708.96 / $10,875) |
-| Back-end DTI | 40.45% (($3,708.96 + $690) / $10,875) |
+| Back-end DTI (LOCKED CPA P&L, $10,125/mo) | 43.1% (LO figure) — passes 50% cap |
+| Back-end DTI (program 10% factor, $10,875/mo) | 40.45% — calc:payment-analyzer |
+| Front-end DTI (LOCKED, $10,125/mo) | 36.6% ($3,708.96 / $10,125) |
 | LTV | 80.00% — calc:ltvcltv-analyzer |
 | CLTV | 80.00% — calc:ltvcltv-analyzer |
 | PMI | Not required |
@@ -142,19 +162,25 @@ Business funds require: (a) CPA letter confirming withdrawal won't harm business
 PITIA breakdown: P&I $3,021.87 + tax $527.08 + insurance $160.00 + HOA $0 — calc:payment-analyzer. Note: property tax based on 2025 assessment of $6,325/yr; SD County will reassess at purchase price post-year-1 (~$6,900/yr). — calc:payment-analyzer
 
 ### Property
-Type: SFR, 3/2, 1,850 sqft, remodeled 1962, 1 unit · Purchase price: $575,000 · Appraisal: not yet ordered · Address: 4827 Madison Ave, San Diego, CA 92115 — clients/chang/5-property/purchase-contract.pdf, clients/chang/6-notes/intake-call-0806.txt (2026-08-06)
+Type: SFR, 3/2, 1,850 sqft, remodeled 1962 (2019 remodel), 1 unit · Purchase price: $575,000 · Appraisal: inspection completed 08/12, final report pending · Address: 4827 Madison Ave, San Diego, CA 92115 — clients/chang/5-property/purchase-contract.pdf, clients/chang/6-notes/intake-call-0806.txt (2026-08-06), clients/chang/6-notes/intake-update-0813.txt (2026-08-13)
+
+Appraisal notes (08/13): appraiser says 2019 remodel holding up well (kitchen upgrades, new HVAC highlighted). Strong comps in College Area — 3 similar 3/2 SFRs within 0.5 mi sold $560K–$585K in last 90 days. Confidence $575K will be supported at value. Next: verify Actual Age vs Effective Age. — clients/chang/6-notes/intake-update-0813.txt
 
 ### Documents on file
 - Identity: business-license.pdf, driver-license.pdf
-- Income: 1099-nec-amazon-2025.pdf, 1099-nec-microsoft-2025.pdf, 1099-nec-others-2025.pdf, 1099-summary-2024.pdf, cpa-profit-loss.pdf
+- Income: 1099-nec-amazon-2025.pdf, 1099-nec-microsoft-2025.pdf, 1099-nec-others-2025.pdf, 1099-summary-2024.pdf, cpa-profit-loss.pdf (finalized 08/13)
 - Assets: chase-personal-2026-07.pdf, vanguard-brokerage-2026-06.pdf
 - Credit: credit-report.pdf
 - Property: property-disclosure.pdf, purchase-contract.pdf
 - Application: URLA-2019-Borrower-v28.filled.pdf (filled, unsigned), URLA-2019-Borrower-v28.pdf (blank)
-- Notes: intake-call-0806.txt
+- Notes: intake-call-0806.txt, intake-update-0813.txt
 
 ### Context
-- Intake call 2026-08-06: Loan officer explicitly wants CPA P&L actual-expense method used for income. However, the iTrust Special Alt Doc Option 2: 1099 program uses a flat 10% expense factor on gross 1099 receipts, which actually yields a higher qualifying income ($10,875 vs $10,125). Officer should be made aware that the program's own formula is more favorable than CPA P&L. — clients/chang/6-notes/intake-call-0806.txt (2026-08-06) & products/itrust/Special Alt Doc 04.27.26.pdf
+- Intake update 2026-08-13: CPA P&L + CPA letter finalized — confirms $17K annual business expenses with breakdown (home office allocation, software/licensing, professional liability insurance), satisfying "verifiable business necessity." LO locked income method to CPA P&L actual expenses ($121,500 → 43.1% DTI) to prevent AUS defaulting to a 25% standard factor ($103,875 → 50.4%, fail). — clients/chang/6-notes/intake-update-0813.txt
+- Intake update 2026-08-13: Robert initiated sale of $115K VTSAX from Vanguard (08/13) for down payment + reserves; funds to sweep to personal checking by early next week (2-day settlement). Keep confirmation statement. — clients/chang/6-notes/intake-update-0813.txt
+- Intake update 2026-08-13: Appraisal inspection completed 08/12; strong comps $560K–$585K; final report pending; verify Actual vs Effective Age for 2019 remodel. — clients/chang/6-notes/intake-update-0813.txt
+- Intake update 2026-08-13: Credit unchanged; no pending large purchases; advised low card usage. On track for 30-day close; primary risk remains income calculation method. — clients/chang/6-notes/intake-update-0813.txt
+- Intake call 2026-08-06: Loan officer wanted CPA P&L actual-expense method used for income (now locked 08/13). The iTrust program's own 10% factor is even more favorable ($10,875/mo → 40.45% DTI vs $10,125/mo → 43.1%); both pass the 50% cap. Worth surfacing to the officer, but not a blocker. — clients/chang/6-notes/intake-call-0806.txt (2026-08-06) & products/itrust/Special Alt Doc 04.27.26.pdf
 - Robert is a first-time homebuyer, currently renting in Clairemont area, looking to purchase in College Area. — clients/chang/6-notes/intake-call-0806.txt (2026-08-06)
 - URLA is filled and on file but not yet signed. SSN, DOB, employer details, assets, and liabilities all confirmed. All declarations (bankruptcies, foreclosures, judgments, etc.) answered NO. — clients/chang/URLA-2019-Borrower-v28.filled.pdf
 - Previous identity-discrepancy concern from old profile is resolved: "Robert James Chang" is consistent across all documents including URLA, credit report, and intake notes. — clients/chang/URLA-2019-Borrower-v28.filled.pdf
