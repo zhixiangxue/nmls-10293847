@@ -1,0 +1,65 @@
+MISSING DOCUMENTS CHECKLIST — Robert James Chang
+Generated: 08/13/2026
+Loan: Non-QM 1099 Income | 30-yr fixed @ 6.875% | $460,000 (80% LTV)
+Property: 4827 Madison Ave, San Diego, CA 92115
+
+==================================================================
+PRIORITY 1 — BLOCKING SUBMISSION (must have to submit)
+==================================================================
+[ ] 1099 IRS Tax Transcripts
+    - Required by iTrust Option 2 (1099 program). Not yet ordered.
+[ ] WVOE / YTD income verification (all 3 employers)
+    [ ] Insight Global (Microsoft contract)
+    [ ] Kelly Services (Amazon contract)
+    [ ] Direct client(s) — Qualcomm / Sony
+[ ] Chase business checking statement
+    - Source the 7/15 owner draw of $8,083 and verify ~$48K balance
+[ ] CPA 2-year 1099 history letter
+    - 08/13 letter covers expense breakdown; confirm "2-year 1099 history
+      in same industry" is covered or needs a separate letter
+
+==================================================================
+PRIORITY 2 — REQUIRED BEFORE CLOSE
+==================================================================
+[ ] Appraisal report (final)
+    - Inspection done 8/12; verify Actual Age vs Effective Age so the
+      2019 remodel is properly weighted
+[ ] Vanguard trade confirmation (sale of $115K VTSAX, initiated 8/13)
+[ ] Updated Vanguard brokerage statement after funds clear (~next week)
+    - Proof of funds after settlement + transfer to personal checking
+[ ] Title commitment
+[ ] Homeowner's insurance binder
+[ ] EMD receipt ($8,000 earnest money)
+
+==================================================================
+PRIORITY 3 — CONDITIONAL / OPTIONAL (only if needed)
+==================================================================
+[ ] CPA letter re: business draw not impacting operations
+    - Likely WAIVED — Vanguard proceeds make personal funds sufficient,
+      so business checking draw is no longer needed to close gap
+[ ] Independent SSN verification doc (URLA present; separate file only
+    if investor/underwriter requires)
+
+==================================================================
+RECEIVED / COMPLETE
+==================================================================
+[x] Driver's license
+[x] Business license
+[x] 1099-NEC 2025 — Amazon, Microsoft, Others
+[x] 1099 summary 2024
+[x] CPA P&L (finalized, $17K expenses confirmed)
+[x] CPA expense-breakdown letter (home office / software & licensing /
+    professional liability)
+[x] Chase personal checking statement (07/2026)
+[x] Vanguard brokerage statement (06/2026 — NOTE: shows $95K, sale is
+    $115K; updated statement needed to reconcile $20K gap)
+[x] Credit report
+[x] Property disclosure
+[x] Purchase contract ($575K)
+[x] URLA 2019 Borrower (filled, pending signature)
+
+==================================================================
+STATUS
+==================================================================
+On track for 30-day close. Primary risk remains income calculation
+method (CPA P&L Actual Expenses locked; verify against program factor).
