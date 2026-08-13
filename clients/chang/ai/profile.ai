@@ -1,16 +1,17 @@
 # chang — clerk
 
-> Maintained by clerk · as of 1cc0884 · 2026-08-13
+> Maintained by clerk · as of 2ba6f63 · 2026-08-13
 > Verifiable facts with sources; this is the single source of truth for client knowledge.
 
 ## Needs attention
-- **Vanguard funds unverified — largest hard risk.** June statement shows **$95,000** (holdings VTI $55K / VXUS $20K / BND $15K / VMFXX $5K — **no "VTSAX" line item**), yet a **$115,000 "VTSAX" sale** was initiated 08/13 → **$20,000 unexplained gap**. Documented assets $117,000 vs $133,127 needed = **$16,127 short**. Need sale confirmation + updated Vanguard/Chase statement. — analyst:asset-analyzer
+- **Vanguard funds unverified — largest hard risk.** June statement shows **$95,000** (VTI $55K / VXUS $20K / BND $15K / VMFXX $5K — **no "VTSAX" line item**), yet a **$115,000 "VTSAX" sale** was initiated 08/13 → **$20,000 unexplained gap**. Documented assets $117,000 vs $133,127 needed = **$16,127 short**. Need sale confirmation + updated Vanguard/Chase statement. — analyst:asset-analyzer
 - **Income lock is set to a figure neither program option actually uses.** LO locked "CPA P&L actual expenses" = 2-yr-avg net **$121,500** ($10,125/mo → 43.4% DTI). The program's Option 2 (1099) computes $145,000 × 0.90 = **$130,500** ($10,875/mo → 40.5% DTI) — *more favorable*. The "25% standard factor" the LO fears is **not in the iTrust guideline** (program uses a fixed 10% factor). Surface to LO. — products/itrust/Special Alt Doc 04.27.26.pdf
+- **08/13 checklist adds a blocker the program analysis says isn't required.** The new missing-documents checklist lists **Chase business checking statement** as Priority 1 ("source the 7/15 owner draw of $8,083; verify ~$48K balance"), but prior analysis found business funds unnecessary — the down payment comes from the personal Vanguard brokerage, and the program waives large-deposit sourcing. Reconcile with LO before treating it as a hard blocker. — clients/chang/6-notes/missing-documents-checklist.txt
 - **Program-required income docs outstanding:** 1099 IRS tax transcripts (not ordered) + WVOE/YTD verification from all 3 contract employers (not received). — products/itrust/Special Alt Doc 04.27.26.pdf
 - **Appraisal final report pending** (inspection done 08/12); verify "Actual Age" vs "Effective Age" so the 2019 remodel is weighted. — clients/chang/6-notes/intake-update-0813.txt
 
 ## Status snapshot
-Lead stage, purchase. Program direction: **Non-QM 1099 income — Explicit** (purchase-contract financing contingency + intake note). Best-fit product: **iTrust Special Alt Doc — Self-Employed Option 2: 1099 — Strong inference** (matched by eligibility analysis; no lender/product name stated in intake). Underwriting: **qualified on merits** — every credit/collateral/ratio criterion passes; 5 items block submission, 4 required before close, ~5 to verify. On track for a 30-day close (COE 09/28/2026); primary risks = Vanguard fund verification and income method.
+Lead stage, purchase. Program direction: **Non-QM 1099 income — Explicit** (purchase-contract financing contingency + intake note + 08/13 checklist header). Best-fit product: **iTrust Special Alt Doc — Self-Employed Option 2: 1099 — Strong inference** (matched by eligibility analysis; no lender/product name stated in intake). Underwriting: **qualified on merits** — every credit/collateral/ratio criterion passes; 5 items block submission (a 6th — business checking statement — is flagged by the 08/13 checklist but conflicts with program analysis), 4 required before close, ~6 to verify. On track for a 30-day close (COE 09/28/2026); primary risks = Vanguard fund verification and income method.
 
 ## Open items
 ### Blocks submission
@@ -19,6 +20,7 @@ Lead stage, purchase. Program direction: **Non-QM 1099 income — Explicit** (pu
 - Licensed Tax Preparer letter confirming 2-year 1099 history (same line of work, ≥12 mo at job) — verify the 08/13 CPA letter covers this or a separate letter is needed. — products/itrust/Special Alt Doc 04.27.26.pdf (p.8)
 - Signed URLA — filled but unsigned. — clients/chang/URLA-2019-Borrower-v28.filled.pdf
 - Vanguard sale confirmation + updated statement — prove the $115K liquidation and resolve the $20K gap; documented assets ($117K) are $16,127 short of the $133,127 required. — analyst:asset-analyzer
+- Chase business checking statement — **flagged by 08/13 checklist as Priority 1** (source 7/15 owner draw $8,083, verify ~$48K). ⚠️ Conflicts with program analysis: business funds not required since down payment is personal Vanguard funds and the program waives large-deposit sourcing. Reconcile with LO. — clients/chang/6-notes/missing-documents-checklist.txt
 
 ### Required before close
 - Appraisal report — inspection done 08/12, final report pending. — clients/chang/6-notes/intake-update-0813.txt
@@ -27,6 +29,8 @@ Lead stage, purchase. Program direction: **Non-QM 1099 income — Explicit** (pu
 - Earnest-money deposit receipt ($8,000) — not on file. — clients/chang/5-property/purchase-contract.pdf
 
 ### To verify
+- Chase business checking statement: 08/13 checklist lists it as blocking; prior analysis says not required (down payment = personal funds, program waives large-deposit sourcing). — clients/chang/6-notes/missing-documents-checklist.txt
+- Vanguard sale-confirmation priority: 08/13 checklist classifies it "before close"; this profile treats it as blocking because documented assets are $16,127 short without it. — clients/chang/6-notes/missing-documents-checklist.txt
 - CPA letter: confirm it states the 2-year 1099 history (not just the expense breakdown). — products/itrust/Special Alt Doc 04.27.26.pdf (p.8)
 - YTD earnings vs $145K: if WVOE validates lower, qualifying income steps down. — products/itrust/Special Alt Doc 04.27.26.pdf (p.8)
 - Vanguard $20K gap and VTSAX-vs-VTI naming. — analyst:asset-analyzer
@@ -37,7 +41,7 @@ Lead stage, purchase. Program direction: **Non-QM 1099 income — Explicit** (pu
 ### Identity
 - [x] Driver license — clients/chang/1-identity/driver-license.pdf
 - [x] Business license — clients/chang/1-identity/business-license.pdf
-- [ ] SSN verification (standalone) — SSN on URLA/1099s; no separate card/W-9/IRS letter on file. — clients/chang/URLA-2019-Borrower-v28.filled.pdf
+- [ ] SSN verification (standalone) — SSN on URLA/1099s; no separate card/W-9/IRS letter on file. 08/13 checklist marks this "conditional — only if investor/underwriter requires." — clients/chang/URLA-2019-Borrower-v28.filled.pdf, clients/chang/6-notes/missing-documents-checklist.txt
 
 ### Income
 - [x] 1099-NEC 2025 — Kelly Services/Amazon ($42K) — clients/chang/2-income/1099-nec-amazon-2025.pdf
@@ -53,6 +57,7 @@ Lead stage, purchase. Program direction: **Non-QM 1099 income — Explicit** (pu
 - [x] Chase personal checking (07/2026, $22,000) — clients/chang/3-assets/chase-personal-2026-07.pdf
 - [x] Vanguard brokerage (06/2026, $95,000) — clients/chang/3-assets/vanguard-brokerage-2026-06.pdf
 - [ ] Vanguard sale confirmation + updated statement — $115K liquidation pending (blocks) — clients/chang/6-notes/intake-update-0813.txt
+- [ ] Chase business checking statement (~$48K; 7/15 owner draw $8,083) — 08/13 checklist Priority 1; not on file. Prior analysis: not required if down payment is personal funds. — clients/chang/6-notes/missing-documents-checklist.txt
 - [ ] EMD receipt ($8,000) — not on file
 
 ### Credit
@@ -69,7 +74,7 @@ Lead stage, purchase. Program direction: **Non-QM 1099 income — Explicit** (pu
 - [x] URLA (filled) — clients/chang/URLA-2019-Borrower-v28.filled.pdf
 - [ ] Signed URLA — currently unsigned
 
-> Chase business checking (~$48K) and a CPA "no-harm-to-business" letter are **not required** unless business funds are actually used — the down payment comes from the personal Vanguard brokerage, and the program waives large-deposit sourcing. — products/itrust/Special Alt Doc 04.27.26.pdf (p.10)
+> Chase business checking (~$48K) and a CPA "no-harm-to-business" letter are **not required** unless business funds are actually used — the down payment comes from the personal Vanguard brokerage, and the program waives large-deposit sourcing. ⚠️ The 08/13 missing-documents checklist nevertheless lists the business checking statement as Priority 1 and independently marks the "no-harm" letter as "likely waived" — reconcile with LO. — products/itrust/Special Alt Doc 04.27.26.pdf (p.10), clients/chang/6-notes/missing-documents-checklist.txt
 
 ## Program compliance
 ### iTrust Special Alt Doc — Self-Employed Option 2: 1099
@@ -131,6 +136,7 @@ FICO: Experian 741 / Equifax 738 / TransUnion 735 → **mid 738**. Clean file �
 - Chase personal checking **$22,000** (07/31/2026) — clients/chang/3-assets/chase-personal-2026-07.pdf
 - Vanguard brokerage **$95,000** (06/30/2026; VTI $55K / VXUS $20K / BND $15K / VMFXX $5K) — clients/chang/3-assets/vanguard-brokerage-2026-06.pdf
 - $115,000 VTSAX sale initiated 08/13 (2-day settlement, sweep to checking) — clients/chang/6-notes/intake-update-0813.txt
+- Chase business checking ~$48,000 (not on file as a statement) — clients/chang/6-notes/intake-call-0806.txt
 
 | Requirement | Amount |
 |---|---|
@@ -146,7 +152,7 @@ FICO: Experian 741 / Equifax 738 / TransUnion 735 → **mid 738**. Clean file �
 | Post-liquidation ($22K + $115K) | $137,000 | +$3,873 ✅ (conditional) |
 | Current statements ($22K + $95K) | $117,000 | −$16,127 ❌ |
 
-⚠️ **$20K discrepancy:** June Vanguard = $95K but $115K being liquidated; and "VTSAX" (mutual fund) is not the holding shown (VTI is the ETF share class). Reconcile via sale confirmation + updated statement. Business checking (~$48K) not needed — down payment comes from personal accounts, and the program waives large-deposit sourcing (the $8,083 owner draw and $4,000 Qualcomm deposit need no sourcing). — analyst:asset-analyzer, products/itrust/Special Alt Doc 04.27.26.pdf (p.10)
+⚠️ **$20K discrepancy:** June Vanguard = $95K but $115K being liquidated; and "VTSAX" (mutual fund) is not the holding shown (VTI is the ETF share class). Reconcile via sale confirmation + updated statement. Business checking (~$48K) not needed per program analysis — down payment comes from personal accounts, and the program waives large-deposit sourcing (the 7/15 $8,083 owner draw and $4,000 Qualcomm deposit need no sourcing). ⚠️ The 08/13 checklist nevertheless lists the business checking statement as Priority 1 (source the 7/15 $8,083 owner draw) — reconcile with LO. — analyst:asset-analyzer, products/itrust/Special Alt Doc 04.27.26.pdf (p.10), clients/chang/6-notes/missing-documents-checklist.txt
 
 ### Ratios
 | Metric | Value |
@@ -170,12 +176,13 @@ Type: SFR, 3/2, 1,850 sqft living (6,500 sqft lot), built 1962, remodeled 2019 (
 - Credit: credit-report.pdf
 - Property: property-disclosure.pdf, purchase-contract.pdf
 - Application: URLA-2019-Borrower-v28.filled.pdf (filled, unsigned), URLA-2019-Borrower-v28.pdf (blank)
-- Notes: 6-notes/intake-call-0806.txt, 6-notes/intake-update-0813.txt
+- Notes: 6-notes/intake-call-0806.txt, 6-notes/intake-update-0813.txt, 6-notes/missing-documents-checklist.txt (08/13)
 
 ### Context
+- 2026-08-13: Missing-documents checklist generated. Adds **Chase business checking statement** as Priority 1 (source the 7/15 $8,083 owner draw, verify ~$48K) — conflicts with the finding that business funds aren't required; separately marks the CPA "no-harm-to-business" letter as "likely waived" and standalone SSN verification as conditional. Places Vanguard sale confirmation in "before close" (Priority 2) rather than blocking. — clients/chang/6-notes/missing-documents-checklist.txt
 - 2026-08-13: CPA P&L + CPA letter finalized — $18K (2025) / $16K (2024) expenses, avg $17K, breakdown satisfies "verifiable business necessity." LO locked "CPA P&L Actual Expenses" ($121,500 → 43.1% DTI) to stop AUS defaulting to a "25% standard factor" ($103,875 → 50.4%, fail). — clients/chang/6-notes/intake-update-0813.txt
 - 2026-08-13: $115K VTSAX sale from Vanguard initiated for down payment + reserves; 2-day settlement, sweep to checking by early next week; keep confirmation. — clients/chang/6-notes/intake-update-0813.txt
-- 2026-08-13: Appraisal inspection done 08/12; strong comps $560K–$585K within 0.5 mi; final report pending; verify Actual vs Effective Age. — clients/chang/6-08-06 & intake-update-0813.txt
+- 2026-08-13: Appraisal inspection done 08/12; strong comps $560K–$585K within 0.5 mi; final report pending; verify Actual vs Effective Age. — clients/chang/6-notes/intake-update-0813.txt
 - 2026-08-13: Credit unchanged; no pending large purchases; advised low card usage; 30-day close on track; primary risk = income method. — clients/chang/6-notes/intake-update-0813.txt
 - 2026-08-06: LO framed income as CPA-P&L-actual ($121,500) vs 25%-factor ($103,875) — but the iTrust program's actual Option-2 factor is 10% ($130,500 → 40.5% DTI), more favorable than both. Worth surfacing to the officer; not a blocker. — clients/chang/6-notes/intake-call-0806.txt (2026-08-06), products/itrust/Special Alt Doc 04.27.26.pdf
 - First-time homebuyer, currently renting in Clairemont, buying in College Area. — clients/chang/6-notes/intake-call-0806.txt (2026-08-06)
