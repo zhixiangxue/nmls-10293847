@@ -1,0 +1,42 @@
+Intake Call Update - 08/13/2026
+
+Borrower: Robert James Chang
+Property: 4827 Madison Ave, San Diego, CA 92115
+Loan Type: Non-QM 1099 Income, 30-yr fixed at 6.875%
+Loan Amount: $460,000 (80% LTV)
+
+Income & Underwriting Update:
+- Finalized P&L and CPA-prepared letter received, confirming $17K in annual business expenses.
+- CPA letter explicitly breaks down home office allocation, software/licensing costs, and
+  professional liability insurance — satisfies UW requirement for "verifiable business necessity."
+- Stress test re-run:
+  - CPA P&L actual-expense method: $121,500 net income -> back-end DTI 43.1% (passes 50% cap).
+  - Standard factor (25% on $138,500 avg gross): $103,875 income -> DTI 50.4% (fails).
+- Note added in system: "Lock Income Method: CPA P&L Actual Expenses" to prevent the AUS
+  from defaulting to the standard factor.
+
+Asset & Down Payment Logistics:
+- Robert will liquidate $115K from Vanguard brokerage for down payment and reserves.
+- Sale of $115K VTSAX initiated this morning (08/13).
+- Advised to keep the confirmation statement and ensure funds sweep to personal checking by
+  early next week (2-day settlement period).
+
+Property & Appraisal:
+- Appraisal inspection completed yesterday (08/12).
+- Appraiser: 2019 remodel holding up well — highlighted kitchen upgrades and new HVAC.
+- Awaiting final report. Strong comps in College Area: 3 similar 3/2 SFRs within 0.5 mi sold
+  $560K-$585K in last 90 days.
+- Confident the $575K purchase price will be fully supported at value.
+
+Credit & Liabilities:
+- No changes. Auto loan ($450/mo) + student loan ($200/mo) remain the only monthly obligations
+  outside new PITIA.
+- No pending large purchases before closing; advised to keep credit card usage low.
+
+Next Steps:
+1. Review Appraisal: verify "Actual Age" vs "Effective Age" to ensure the 2019 remodel is
+   properly weighted.
+2. Vanguard funds: monitor liquidation and transfer to personal checking; upload proof of
+   funds once cleared.
+
+Status: On track for a 30-day close. Primary risk remains the income calculation method.
